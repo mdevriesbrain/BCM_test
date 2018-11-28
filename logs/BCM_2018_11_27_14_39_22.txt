@@ -1,0 +1,1179 @@
+2018_11_27_22_39_22,INFO,logging_setup:43:init_project_logger info
+2018_11_27_22_39_22,INFO,logging_setup:81:stream_capture *IDN?
+2018_11_27_22_39_22,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_39_22,INFO,logging_setup:81:stream_capture 0.0239999294281
+2018_11_27_22_39_22,INFO,logging_setup:81:stream_capture *IDN?
+2018_11_27_22_39_22,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_39_22,INFO,logging_setup:81:stream_capture 0.00399994850159
+2018_11_27_22_39_22,INFO,logging_setup:81:stream_capture *IDN?
+2018_11_27_22_39_22,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_39_22,INFO,logging_setup:81:stream_capture 0.0239999294281
+2018_11_27_22_39_22,INFO,logging_setup:81:stream_capture Begin Testing Board type:115...
+2018_11_27_22_39_22,INFO,logging_setup:81:stream_capture VOLT 36
+2018_11_27_22_39_22,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_22,INFO,logging_setup:81:stream_capture 0.00100016593933
+2018_11_27_22_39_22,INFO,logging_setup:81:stream_capture CURR 2.6
+2018_11_27_22_39_22,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_22,INFO,logging_setup:81:stream_capture 0.000999927520752
+2018_11_27_22_39_22,INFO,logging_setup:81:stream_capture SOUR:OUTP 1
+2018_11_27_22_39_22,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_22,INFO,logging_setup:81:stream_capture 0.00100016593933
+2018_11_27_22_39_22,INFO,logging_setup:81:stream_capture <control.bcm_power.DutPower object at 0x0000000004A00748>
+2018_11_27_22_39_22,INFO,logging_setup:81:stream_capture completed in 0.005 secs
+2018_11_27_22_39_22,INFO,logging_setup:81:stream_capture SOUR:DIG:DATA:BYTE 2, (@202)
+2018_11_27_22_39_22,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_22,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_39_23,INFO,logging_setup:81:stream_capture <control.bcm_power.DutKeySenseOn object at 0x0000000003528D30>
+2018_11_27_22_39_23,INFO,logging_setup:81:stream_capture completed in 1.006 secs
+2018_11_27_22_39_23,INFO,test_point:144:execute KEY_SENSE_1, EXEC: True, VALUE: 1, PASSED: True
+2018_11_27_22_39_23,INFO,logging_setup:81:stream_capture <tests.bcm_power_tests.DutKeySenseMeasurement object at 0x0000000003528D30>
+2018_11_27_22_39_23,INFO,logging_setup:81:stream_capture completed in 0.015 secs
+2018_11_27_22_39_23,INFO,logging_setup:81:stream_capture MEAS:CURR?
+2018_11_27_22_39_23,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_39_23,INFO,logging_setup:81:stream_capture 0.00699996948242
+2018_11_27_22_39_23,INFO,test_point:144:execute DUT_CURRENT_2, EXEC: True, VALUE: 1.024, PASSED: True
+2018_11_27_22_39_24,INFO,logging_setup:81:stream_capture <tests.bcm_power_tests.DutCurrentMeasurement object at 0x0000000003528D30>
+2018_11_27_22_39_24,INFO,logging_setup:81:stream_capture completed in 1.009 secs
+2018_11_27_22_39_24,INFO,logging_setup:81:stream_capture MEAS:VOLT?
+2018_11_27_22_39_24,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_39_24,INFO,logging_setup:81:stream_capture 0.00699996948242
+2018_11_27_22_39_24,INFO,test_point:144:execute DUT_VOLTAGE_2, EXEC: True, VALUE: 35.998, PASSED: True
+2018_11_27_22_39_25,INFO,logging_setup:81:stream_capture <tests.bcm_power_tests.DutVoltageMeasurement object at 0x0000000004A00748>
+2018_11_27_22_39_25,INFO,logging_setup:81:stream_capture completed in 1.008 secs
+2018_11_27_22_39_25,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 101"
+2018_11_27_22_39_25,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_25,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_39_25,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@101)
+2018_11_27_22_39_25,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_39_25,INFO,logging_setup:81:stream_capture 0.145999908447
+2018_11_27_22_39_25,INFO,test_point:144:execute P5VG_2, EXEC: True, VALUE: 5.0007703, PASSED: True
+2018_11_27_22_39_26,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00828>
+2018_11_27_22_39_26,INFO,logging_setup:81:stream_capture completed in 1.153 secs
+2018_11_27_22_39_26,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 102"
+2018_11_27_22_39_26,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_26,INFO,logging_setup:81:stream_capture 0.00299978256226
+2018_11_27_22_39_26,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@102)
+2018_11_27_22_39_27,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_39_27,INFO,logging_setup:81:stream_capture 0.12700009346
+2018_11_27_22_39_27,INFO,test_point:144:execute STEERING_P5VH_2, EXEC: True, VALUE: 5.0007449, PASSED: True
+2018_11_27_22_39_28,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A007F0>
+2018_11_27_22_39_28,INFO,logging_setup:81:stream_capture completed in 1.132 secs
+2018_11_27_22_39_28,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 103"
+2018_11_27_22_39_28,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_28,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_39_28,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@103)
+2018_11_27_22_39_28,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_39_28,INFO,logging_setup:81:stream_capture 0.125
+2018_11_27_22_39_28,INFO,test_point:144:execute ABSOLUTE_ENCODER_P5VI_2, EXEC: True, VALUE: 5.0007449, PASSED: True
+2018_11_27_22_39_29,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00860>
+2018_11_27_22_39_29,INFO,logging_setup:81:stream_capture completed in 1.130 secs
+2018_11_27_22_39_29,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 104"
+2018_11_27_22_39_29,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_29,INFO,logging_setup:81:stream_capture 0.00299978256226
+2018_11_27_22_39_29,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@104)
+2018_11_27_22_39_29,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_39_29,INFO,logging_setup:81:stream_capture 0.125999927521
+2018_11_27_22_39_29,INFO,test_point:144:execute TRACTION_ENCODER_P5VJ_2, EXEC: True, VALUE: 5.0007068, PASSED: True
+2018_11_27_22_39_30,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00780>
+2018_11_27_22_39_30,INFO,logging_setup:81:stream_capture completed in 1.133 secs
+2018_11_27_22_39_30,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 105"
+2018_11_27_22_39_30,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_30,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_39_30,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@105)
+2018_11_27_22_39_30,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_39_30,INFO,logging_setup:81:stream_capture 0.12700009346
+2018_11_27_22_39_30,INFO,test_point:144:execute P5VK_2, EXEC: True, VALUE: 5.0007449, PASSED: True
+2018_11_27_22_39_31,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A004A8>
+2018_11_27_22_39_31,INFO,logging_setup:81:stream_capture completed in 1.132 secs
+2018_11_27_22_39_31,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 107"
+2018_11_27_22_39_31,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_31,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_39_31,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@107)
+2018_11_27_22_39_31,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_39_31,INFO,logging_setup:81:stream_capture 0.12700009346
+2018_11_27_22_39_31,INFO,test_point:144:execute EXT_LTE_MODEM__USB_5V_1A_2, EXEC: True, VALUE: 4.9538636, PASSED: True
+2018_11_27_22_39_32,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A007B8>
+2018_11_27_22_39_32,INFO,logging_setup:81:stream_capture completed in 1.132 secs
+2018_11_27_22_39_32,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 108"
+2018_11_27_22_39_32,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_32,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_39_32,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@108)
+2018_11_27_22_39_32,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_39_32,INFO,logging_setup:81:stream_capture 0.128000020981
+2018_11_27_22_39_32,INFO,test_point:144:execute USB_5V_1B_2, EXEC: True, VALUE: 4.9550699, PASSED: True
+2018_11_27_22_39_33,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00898>
+2018_11_27_22_39_33,INFO,logging_setup:81:stream_capture completed in 1.133 secs
+2018_11_27_22_39_33,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 201"
+2018_11_27_22_39_33,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_33,INFO,logging_setup:81:stream_capture 0.00399994850159
+2018_11_27_22_39_33,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@201)
+2018_11_27_22_39_33,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_39_33,INFO,logging_setup:81:stream_capture 0.133000135422
+2018_11_27_22_39_33,INFO,test_point:144:execute FAN_P12VA_2, EXEC: True, VALUE: 11.940502, PASSED: True
+2018_11_27_22_39_34,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A008D0>
+2018_11_27_22_39_34,INFO,logging_setup:81:stream_capture completed in 1.139 secs
+2018_11_27_22_39_34,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 202"
+2018_11_27_22_39_34,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_34,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_39_34,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@202)
+2018_11_27_22_39_35,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_39_35,INFO,logging_setup:81:stream_capture 0.128000020981
+2018_11_27_22_39_35,INFO,test_point:144:execute SLANTED_LIDAR_P12VB_2, EXEC: True, VALUE: 11.940452, PASSED: True
+2018_11_27_22_39_36,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00908>
+2018_11_27_22_39_36,INFO,logging_setup:81:stream_capture completed in 1.133 secs
+2018_11_27_22_39_36,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 203"
+2018_11_27_22_39_36,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_36,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_39_36,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@203)
+2018_11_27_22_39_36,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_39_36,INFO,logging_setup:81:stream_capture 0.12700009346
+2018_11_27_22_39_36,INFO,test_point:144:execute P12VC_2, EXEC: True, VALUE: 11.942001, PASSED: True
+2018_11_27_22_39_37,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00940>
+2018_11_27_22_39_37,INFO,logging_setup:81:stream_capture completed in 1.134 secs
+2018_11_27_22_39_37,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 204"
+2018_11_27_22_39_37,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_37,INFO,logging_setup:81:stream_capture 0.00200009346008
+2018_11_27_22_39_37,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@204)
+2018_11_27_22_39_37,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_39_37,INFO,logging_setup:81:stream_capture 0.125999927521
+2018_11_27_22_39_37,INFO,test_point:144:execute H_LIDAR_P12VD_2, EXEC: True, VALUE: 11.941912, PASSED: True
+2018_11_27_22_39_38,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00978>
+2018_11_27_22_39_38,INFO,logging_setup:81:stream_capture completed in 1.131 secs
+2018_11_27_22_39_38,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 206"
+2018_11_27_22_39_38,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_38,INFO,logging_setup:81:stream_capture 0.00200009346008
+2018_11_27_22_39_38,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@206)
+2018_11_27_22_39_38,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_39_38,INFO,logging_setup:81:stream_capture 0.207000017166
+2018_11_27_22_39_38,INFO,test_point:144:execute P24VA_2, EXEC: True, VALUE: 24.481331, PASSED: True
+2018_11_27_22_39_39,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A009B0>
+2018_11_27_22_39_39,INFO,logging_setup:81:stream_capture completed in 1.211 secs
+2018_11_27_22_39_39,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 207"
+2018_11_27_22_39_39,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_39,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_39_39,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@207)
+2018_11_27_22_39_39,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_39_39,INFO,logging_setup:81:stream_capture 0.203999996185
+2018_11_27_22_39_39,INFO,test_point:144:execute IFM_RIGHT_P24VB_2, EXEC: True, VALUE: 24.481588, PASSED: True
+2018_11_27_22_39_40,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A009E8>
+2018_11_27_22_39_40,INFO,logging_setup:81:stream_capture completed in 1.208 secs
+2018_11_27_22_39_40,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 208"
+2018_11_27_22_39_40,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_40,INFO,logging_setup:81:stream_capture 0.00200009346008
+2018_11_27_22_39_40,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@208)
+2018_11_27_22_39_40,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_39_40,INFO,logging_setup:81:stream_capture 0.205000162125
+2018_11_27_22_39_40,INFO,test_point:144:execute IFM_FRONT_P24VC_2, EXEC: True, VALUE: 24.481588, PASSED: True
+2018_11_27_22_39_41,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00A20>
+2018_11_27_22_39_41,INFO,logging_setup:81:stream_capture completed in 1.212 secs
+2018_11_27_22_39_41,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 209"
+2018_11_27_22_39_41,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_41,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_39_41,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@209)
+2018_11_27_22_39_42,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_39_42,INFO,logging_setup:81:stream_capture 0.204999923706
+2018_11_27_22_39_42,INFO,test_point:144:execute IFM_LEFT_P24VD_2, EXEC: True, VALUE: 24.481716, PASSED: True
+2018_11_27_22_39_43,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00A58>
+2018_11_27_22_39_43,INFO,logging_setup:81:stream_capture completed in 1.209 secs
+2018_11_27_22_39_43,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 210"
+2018_11_27_22_39_43,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_43,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_39_43,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@210)
+2018_11_27_22_39_43,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_39_43,INFO,logging_setup:81:stream_capture 0.129999876022
+2018_11_27_22_39_43,INFO,test_point:144:execute STEERING_3V_P3V3A_2, EXEC: True, VALUE: 3.3218002, PASSED: True
+2018_11_27_22_39_44,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00A90>
+2018_11_27_22_39_44,INFO,logging_setup:81:stream_capture completed in 1.136 secs
+2018_11_27_22_39_44,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 211"
+2018_11_27_22_39_44,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_44,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_39_44,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@211)
+2018_11_27_22_39_44,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_39_44,INFO,logging_setup:81:stream_capture 0.12700009346
+2018_11_27_22_39_44,INFO,test_point:144:execute STRT_PAUSE_P3V3B_2, EXEC: True, VALUE: 3.3203272, PASSED: True
+2018_11_27_22_39_45,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00AC8>
+2018_11_27_22_39_45,INFO,logging_setup:81:stream_capture completed in 1.133 secs
+2018_11_27_22_39_45,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 213"
+2018_11_27_22_39_45,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_45,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_39_45,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@213)
+2018_11_27_22_39_45,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_39_45,INFO,logging_setup:81:stream_capture 0.125
+2018_11_27_22_39_45,INFO,test_point:144:execute FRONT_CAM_P5VA_2, EXEC: True, VALUE: 4.9822565, PASSED: True
+2018_11_27_22_39_46,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00B00>
+2018_11_27_22_39_46,INFO,logging_setup:81:stream_capture completed in 1.131 secs
+2018_11_27_22_39_46,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 214"
+2018_11_27_22_39_46,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_46,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_39_46,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@214)
+2018_11_27_22_39_46,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_39_46,INFO,logging_setup:81:stream_capture 0.12700009346
+2018_11_27_22_39_46,INFO,test_point:144:execute RIGHT_CAM_P5VB_2, EXEC: True, VALUE: 4.9671966, PASSED: True
+2018_11_27_22_39_47,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00B38>
+2018_11_27_22_39_47,INFO,logging_setup:81:stream_capture completed in 1.133 secs
+2018_11_27_22_39_47,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 215"
+2018_11_27_22_39_47,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_47,INFO,logging_setup:81:stream_capture 0.00299978256226
+2018_11_27_22_39_47,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@215)
+2018_11_27_22_39_47,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_39_47,INFO,logging_setup:81:stream_capture 0.125999927521
+2018_11_27_22_39_47,INFO,test_point:144:execute LEFT_CAM_P5VC_2, EXEC: True, VALUE: 4.995653, PASSED: True
+2018_11_27_22_39_48,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00B70>
+2018_11_27_22_39_48,INFO,logging_setup:81:stream_capture completed in 1.133 secs
+2018_11_27_22_39_48,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 216"
+2018_11_27_22_39_48,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_48,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_39_48,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@216)
+2018_11_27_22_39_48,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_39_48,INFO,logging_setup:81:stream_capture 0.128000020981
+2018_11_27_22_39_48,INFO,test_point:144:execute P5VD_2, EXEC: True, VALUE: 4.9970498, PASSED: True
+2018_11_27_22_39_49,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00BA8>
+2018_11_27_22_39_49,INFO,logging_setup:81:stream_capture completed in 1.134 secs
+2018_11_27_22_39_49,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 217"
+2018_11_27_22_39_49,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_49,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_39_49,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@217)
+2018_11_27_22_39_50,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_39_50,INFO,logging_setup:81:stream_capture 0.128000020981
+2018_11_27_22_39_50,INFO,test_point:144:execute P5VE_2, EXEC: True, VALUE: 4.9970498, PASSED: True
+2018_11_27_22_39_51,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00BE0>
+2018_11_27_22_39_51,INFO,logging_setup:81:stream_capture completed in 1.133 secs
+2018_11_27_22_39_51,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 218"
+2018_11_27_22_39_51,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_51,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_39_51,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@218)
+2018_11_27_22_39_51,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_39_51,INFO,logging_setup:81:stream_capture 0.12700009346
+2018_11_27_22_39_51,INFO,test_point:144:execute P5VF_2, EXEC: True, VALUE: 4.9832215, PASSED: True
+2018_11_27_22_39_52,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00C18>
+2018_11_27_22_39_52,INFO,logging_setup:81:stream_capture completed in 1.133 secs
+2018_11_27_22_39_52,INFO,logging_setup:81:stream_capture VOLT 20
+2018_11_27_22_39_52,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_52,INFO,logging_setup:81:stream_capture 0.00100016593933
+2018_11_27_22_39_52,INFO,logging_setup:81:stream_capture CURR 2.6
+2018_11_27_22_39_52,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_52,INFO,logging_setup:81:stream_capture 0.000999927520752
+2018_11_27_22_39_52,INFO,logging_setup:81:stream_capture SOUR:OUTP 1
+2018_11_27_22_39_52,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_52,INFO,logging_setup:81:stream_capture 0.000999927520752
+2018_11_27_22_39_52,INFO,logging_setup:81:stream_capture <control.bcm_power.DutPower object at 0x0000000003528D30>
+2018_11_27_22_39_52,INFO,logging_setup:81:stream_capture completed in 0.005 secs
+2018_11_27_22_39_52,INFO,logging_setup:81:stream_capture MEAS:CURR?
+2018_11_27_22_39_52,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_39_52,INFO,logging_setup:81:stream_capture 0.0140001773834
+2018_11_27_22_39_52,INFO,test_point:144:execute DUT_CURRENT_1, EXEC: True, VALUE: 1.0294, PASSED: True
+2018_11_27_22_39_53,INFO,logging_setup:81:stream_capture <tests.bcm_power_tests.DutCurrentMeasurement object at 0x0000000003528D30>
+2018_11_27_22_39_53,INFO,logging_setup:81:stream_capture completed in 1.016 secs
+2018_11_27_22_39_53,INFO,logging_setup:81:stream_capture MEAS:VOLT?
+2018_11_27_22_39_53,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_39_53,INFO,logging_setup:81:stream_capture 0.00800013542175
+2018_11_27_22_39_53,INFO,test_point:144:execute DUT_VOLTAGE_1, EXEC: True, VALUE: 20.001, PASSED: True
+2018_11_27_22_39_54,INFO,logging_setup:81:stream_capture <tests.bcm_power_tests.DutVoltageMeasurement object at 0x0000000004A00C18>
+2018_11_27_22_39_54,INFO,logging_setup:81:stream_capture completed in 1.009 secs
+2018_11_27_22_39_54,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 101"
+2018_11_27_22_39_54,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_54,INFO,logging_setup:81:stream_capture 0.00299978256226
+2018_11_27_22_39_54,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@101)
+2018_11_27_22_39_54,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_39_54,INFO,logging_setup:81:stream_capture 0.146999835968
+2018_11_27_22_39_54,INFO,test_point:144:execute P5VG_1, EXEC: True, VALUE: 5.0007195, PASSED: True
+2018_11_27_22_39_55,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00860>
+2018_11_27_22_39_55,INFO,logging_setup:81:stream_capture completed in 1.153 secs
+2018_11_27_22_39_55,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 102"
+2018_11_27_22_39_55,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_55,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_39_55,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@102)
+2018_11_27_22_39_55,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_39_55,INFO,logging_setup:81:stream_capture 0.12700009346
+2018_11_27_22_39_55,INFO,test_point:144:execute STEERING_P5VH_1, EXEC: True, VALUE: 5.0007195, PASSED: True
+2018_11_27_22_39_56,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00828>
+2018_11_27_22_39_56,INFO,logging_setup:81:stream_capture completed in 1.133 secs
+2018_11_27_22_39_56,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 103"
+2018_11_27_22_39_56,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_56,INFO,logging_setup:81:stream_capture 0.00399994850159
+2018_11_27_22_39_56,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@103)
+2018_11_27_22_39_56,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_39_56,INFO,logging_setup:81:stream_capture 0.125999927521
+2018_11_27_22_39_56,INFO,test_point:144:execute ABSOLUTE_ENCODER_P5VI_1, EXEC: True, VALUE: 5.0006941, PASSED: True
+2018_11_27_22_39_57,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A007F0>
+2018_11_27_22_39_57,INFO,logging_setup:81:stream_capture completed in 1.133 secs
+2018_11_27_22_39_57,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 104"
+2018_11_27_22_39_57,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_57,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_39_57,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@104)
+2018_11_27_22_39_57,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_39_57,INFO,logging_setup:81:stream_capture 0.128999948502
+2018_11_27_22_39_57,INFO,test_point:144:execute TRACTION_ENCODER_P5VJ_1, EXEC: True, VALUE: 5.0007322, PASSED: True
+2018_11_27_22_39_58,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00780>
+2018_11_27_22_39_58,INFO,logging_setup:81:stream_capture completed in 1.133 secs
+2018_11_27_22_39_58,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 105"
+2018_11_27_22_39_58,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_58,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_39_58,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@105)
+2018_11_27_22_39_58,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_39_58,INFO,logging_setup:81:stream_capture 0.125
+2018_11_27_22_39_58,INFO,test_point:144:execute P5VK_1, EXEC: True, VALUE: 5.0007703, PASSED: True
+2018_11_27_22_39_59,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00748>
+2018_11_27_22_39_59,INFO,logging_setup:81:stream_capture completed in 1.132 secs
+2018_11_27_22_39_59,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 107"
+2018_11_27_22_39_59,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_39_59,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_39_59,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@107)
+2018_11_27_22_40_00,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_00,INFO,logging_setup:81:stream_capture 0.131000041962
+2018_11_27_22_40_00,INFO,test_point:144:execute EXT_LTE_MODEM__USB_5V_1A_1, EXEC: True, VALUE: 4.9538128, PASSED: True
+2018_11_27_22_40_01,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A004A8>
+2018_11_27_22_40_01,INFO,logging_setup:81:stream_capture completed in 1.136 secs
+2018_11_27_22_40_01,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 108"
+2018_11_27_22_40_01,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_01,INFO,logging_setup:81:stream_capture 0.00399994850159
+2018_11_27_22_40_01,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@108)
+2018_11_27_22_40_01,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_01,INFO,logging_setup:81:stream_capture 0.126000165939
+2018_11_27_22_40_01,INFO,test_point:144:execute USB_5V_1B_1, EXEC: True, VALUE: 4.9549937, PASSED: True
+2018_11_27_22_40_02,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A007B8>
+2018_11_27_22_40_02,INFO,logging_setup:81:stream_capture completed in 1.132 secs
+2018_11_27_22_40_02,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 201"
+2018_11_27_22_40_02,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_02,INFO,logging_setup:81:stream_capture 0.00400018692017
+2018_11_27_22_40_02,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@201)
+2018_11_27_22_40_02,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_02,INFO,logging_setup:81:stream_capture 0.132999897003
+2018_11_27_22_40_02,INFO,test_point:144:execute FAN_P12VA_1, EXEC: True, VALUE: 11.968997, PASSED: True
+2018_11_27_22_40_03,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00898>
+2018_11_27_22_40_03,INFO,logging_setup:81:stream_capture completed in 1.139 secs
+2018_11_27_22_40_03,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 202"
+2018_11_27_22_40_03,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_03,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_40_03,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@202)
+2018_11_27_22_40_03,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_03,INFO,logging_setup:81:stream_capture 0.126999855042
+2018_11_27_22_40_03,INFO,test_point:144:execute SLANTED_LIDAR_P12VB_1, EXEC: True, VALUE: 11.970825, PASSED: True
+2018_11_27_22_40_04,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A008D0>
+2018_11_27_22_40_04,INFO,logging_setup:81:stream_capture completed in 1.133 secs
+2018_11_27_22_40_04,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 203"
+2018_11_27_22_40_04,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_04,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_40_04,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@203)
+2018_11_27_22_40_04,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_04,INFO,logging_setup:81:stream_capture 0.126999855042
+2018_11_27_22_40_04,INFO,test_point:144:execute P12VC_1, EXEC: True, VALUE: 11.974292, PASSED: True
+2018_11_27_22_40_05,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00908>
+2018_11_27_22_40_05,INFO,logging_setup:81:stream_capture completed in 1.133 secs
+2018_11_27_22_40_05,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 204"
+2018_11_27_22_40_05,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_05,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_40_05,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@204)
+2018_11_27_22_40_05,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_05,INFO,logging_setup:81:stream_capture 0.12700009346
+2018_11_27_22_40_05,INFO,test_point:144:execute H_LIDAR_P12VD_1, EXEC: True, VALUE: 11.967448, PASSED: True
+2018_11_27_22_40_06,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00940>
+2018_11_27_22_40_06,INFO,logging_setup:81:stream_capture completed in 1.133 secs
+2018_11_27_22_40_06,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 206"
+2018_11_27_22_40_06,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_06,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_40_06,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@206)
+2018_11_27_22_40_06,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_06,INFO,logging_setup:81:stream_capture 0.206000089645
+2018_11_27_22_40_06,INFO,test_point:144:execute P24VA_1, EXEC: True, VALUE: 24.29539, PASSED: True
+2018_11_27_22_40_07,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00978>
+2018_11_27_22_40_07,INFO,logging_setup:81:stream_capture completed in 1.211 secs
+2018_11_27_22_40_07,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 207"
+2018_11_27_22_40_07,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_07,INFO,logging_setup:81:stream_capture 0.00200009346008
+2018_11_27_22_40_07,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@207)
+2018_11_27_22_40_08,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_08,INFO,logging_setup:81:stream_capture 0.205000162125
+2018_11_27_22_40_08,INFO,test_point:144:execute IFM_RIGHT_P24VB_1, EXEC: True, VALUE: 24.295774, PASSED: True
+2018_11_27_22_40_09,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A009B0>
+2018_11_27_22_40_09,INFO,logging_setup:81:stream_capture completed in 1.209 secs
+2018_11_27_22_40_09,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 208"
+2018_11_27_22_40_09,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_09,INFO,logging_setup:81:stream_capture 0.00200009346008
+2018_11_27_22_40_09,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@208)
+2018_11_27_22_40_09,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_09,INFO,logging_setup:81:stream_capture 0.206000089645
+2018_11_27_22_40_09,INFO,test_point:144:execute IFM_FRONT_P24VC_1, EXEC: True, VALUE: 24.296544, PASSED: True
+2018_11_27_22_40_10,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A009E8>
+2018_11_27_22_40_10,INFO,logging_setup:81:stream_capture completed in 1.210 secs
+2018_11_27_22_40_10,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 209"
+2018_11_27_22_40_10,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_10,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_40_10,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@209)
+2018_11_27_22_40_10,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_10,INFO,logging_setup:81:stream_capture 0.206000089645
+2018_11_27_22_40_10,INFO,test_point:144:execute IFM_LEFT_P24VD_1, EXEC: True, VALUE: 24.297828, PASSED: True
+2018_11_27_22_40_11,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00A20>
+2018_11_27_22_40_11,INFO,logging_setup:81:stream_capture completed in 1.212 secs
+2018_11_27_22_40_11,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 210"
+2018_11_27_22_40_11,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_11,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_40_11,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@210)
+2018_11_27_22_40_11,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_11,INFO,logging_setup:81:stream_capture 0.125999927521
+2018_11_27_22_40_11,INFO,test_point:144:execute STEERING_3V_P3V3A_1, EXEC: True, VALUE: 3.3219526, PASSED: True
+2018_11_27_22_40_12,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00A58>
+2018_11_27_22_40_12,INFO,logging_setup:81:stream_capture completed in 1.130 secs
+2018_11_27_22_40_12,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 211"
+2018_11_27_22_40_12,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_12,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_40_12,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@211)
+2018_11_27_22_40_12,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_12,INFO,logging_setup:81:stream_capture 0.125999927521
+2018_11_27_22_40_12,INFO,test_point:144:execute STRT_PAUSE_P3V3B_1, EXEC: True, VALUE: 3.3204034, PASSED: True
+2018_11_27_22_40_13,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00A90>
+2018_11_27_22_40_13,INFO,logging_setup:81:stream_capture completed in 1.131 secs
+2018_11_27_22_40_13,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 213"
+2018_11_27_22_40_13,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_13,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_40_13,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@213)
+2018_11_27_22_40_14,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_14,INFO,logging_setup:81:stream_capture 0.128000020981
+2018_11_27_22_40_14,INFO,test_point:144:execute FRONT_CAM_P5VA_1, EXEC: True, VALUE: 4.9822438, PASSED: True
+2018_11_27_22_40_15,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00AC8>
+2018_11_27_22_40_15,INFO,logging_setup:81:stream_capture completed in 1.134 secs
+2018_11_27_22_40_15,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 214"
+2018_11_27_22_40_15,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_15,INFO,logging_setup:81:stream_capture 0.0019998550415
+2018_11_27_22_40_15,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@214)
+2018_11_27_22_40_15,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_15,INFO,logging_setup:81:stream_capture 0.125999927521
+2018_11_27_22_40_15,INFO,test_point:144:execute RIGHT_CAM_P5VB_1, EXEC: True, VALUE: 4.9672727, PASSED: True
+2018_11_27_22_40_16,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00B00>
+2018_11_27_22_40_16,INFO,logging_setup:81:stream_capture completed in 1.131 secs
+2018_11_27_22_40_16,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 215"
+2018_11_27_22_40_16,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_16,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_40_16,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@215)
+2018_11_27_22_40_16,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_16,INFO,logging_setup:81:stream_capture 0.128000020981
+2018_11_27_22_40_16,INFO,test_point:144:execute LEFT_CAM_P5VC_1, EXEC: True, VALUE: 4.995653, PASSED: True
+2018_11_27_22_40_17,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00B38>
+2018_11_27_22_40_17,INFO,logging_setup:81:stream_capture completed in 1.131 secs
+2018_11_27_22_40_17,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 216"
+2018_11_27_22_40_17,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_17,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_40_17,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@216)
+2018_11_27_22_40_17,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_17,INFO,logging_setup:81:stream_capture 0.126000165939
+2018_11_27_22_40_17,INFO,test_point:144:execute P5VD_1, EXEC: True, VALUE: 4.9970244, PASSED: True
+2018_11_27_22_40_18,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00B70>
+2018_11_27_22_40_18,INFO,logging_setup:81:stream_capture completed in 1.131 secs
+2018_11_27_22_40_18,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 217"
+2018_11_27_22_40_18,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_18,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_40_18,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@217)
+2018_11_27_22_40_18,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_18,INFO,logging_setup:81:stream_capture 0.125
+2018_11_27_22_40_18,INFO,test_point:144:execute P5VE_1, EXEC: True, VALUE: 4.9969355, PASSED: True
+2018_11_27_22_40_19,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00BA8>
+2018_11_27_22_40_19,INFO,logging_setup:81:stream_capture completed in 1.130 secs
+2018_11_27_22_40_19,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 218"
+2018_11_27_22_40_19,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_19,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_40_19,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@218)
+2018_11_27_22_40_19,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_19,INFO,logging_setup:81:stream_capture 0.126000165939
+2018_11_27_22_40_19,INFO,test_point:144:execute P5VF_1, EXEC: True, VALUE: 4.9830946, PASSED: True
+2018_11_27_22_40_20,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00BE0>
+2018_11_27_22_40_20,INFO,logging_setup:81:stream_capture completed in 1.132 secs
+2018_11_27_22_40_20,INFO,logging_setup:81:stream_capture VOLT 24
+2018_11_27_22_40_20,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_20,INFO,logging_setup:81:stream_capture 0.00200009346008
+2018_11_27_22_40_20,INFO,logging_setup:81:stream_capture CURR 2.6
+2018_11_27_22_40_20,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_20,INFO,logging_setup:81:stream_capture 0.000999927520752
+2018_11_27_22_40_20,INFO,logging_setup:81:stream_capture SOUR:OUTP 1
+2018_11_27_22_40_20,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_20,INFO,logging_setup:81:stream_capture 0.000999927520752
+2018_11_27_22_40_20,INFO,logging_setup:81:stream_capture <control.bcm_power.DutPower object at 0x0000000003528D30>
+2018_11_27_22_40_20,INFO,logging_setup:81:stream_capture completed in 0.006 secs
+2018_11_27_22_40_20,INFO,logging_setup:81:stream_capture MEAS:CURR?
+2018_11_27_22_40_20,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_20,INFO,logging_setup:81:stream_capture 0.0110001564026
+2018_11_27_22_40_20,INFO,test_point:144:execute DUT_CURRENT_3, EXEC: True, VALUE: 1.5869, PASSED: True
+2018_11_27_22_40_21,INFO,logging_setup:81:stream_capture <tests.bcm_power_tests.DutCurrentMeasurement object at 0x0000000003528D30>
+2018_11_27_22_40_21,INFO,logging_setup:81:stream_capture completed in 1.014 secs
+2018_11_27_22_40_21,INFO,logging_setup:81:stream_capture MEAS:VOLT?
+2018_11_27_22_40_21,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_21,INFO,logging_setup:81:stream_capture 0.00699996948242
+2018_11_27_22_40_21,INFO,test_point:144:execute DUT_VOLTAGE_3, EXEC: True, VALUE: 23.996, PASSED: True
+2018_11_27_22_40_22,INFO,logging_setup:81:stream_capture <tests.bcm_power_tests.DutVoltageMeasurement object at 0x0000000004A00BE0>
+2018_11_27_22_40_22,INFO,logging_setup:81:stream_capture completed in 1.009 secs
+2018_11_27_22_40_22,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 101"
+2018_11_27_22_40_22,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_22,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_40_22,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@101)
+2018_11_27_22_40_22,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_22,INFO,logging_setup:81:stream_capture 0.147000074387
+2018_11_27_22_40_22,INFO,test_point:144:execute P5VG_3, EXEC: True, VALUE: 5.0005417, PASSED: True
+2018_11_27_22_40_23,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A007F0>
+2018_11_27_22_40_23,INFO,logging_setup:81:stream_capture completed in 1.153 secs
+2018_11_27_22_40_23,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 102"
+2018_11_27_22_40_23,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_23,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_40_23,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@102)
+2018_11_27_22_40_23,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_23,INFO,logging_setup:81:stream_capture 0.125999927521
+2018_11_27_22_40_23,INFO,test_point:144:execute STEERING_P5VH_3, EXEC: True, VALUE: 5.0005925, PASSED: True
+2018_11_27_22_40_24,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00860>
+2018_11_27_22_40_24,INFO,logging_setup:81:stream_capture completed in 1.132 secs
+2018_11_27_22_40_24,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 103"
+2018_11_27_22_40_25,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_25,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_40_25,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@103)
+2018_11_27_22_40_25,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_25,INFO,logging_setup:81:stream_capture 0.12700009346
+2018_11_27_22_40_25,INFO,test_point:144:execute ABSOLUTE_ENCODER_P5VI_3, EXEC: True, VALUE: 5.0006433, PASSED: True
+2018_11_27_22_40_26,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00828>
+2018_11_27_22_40_26,INFO,logging_setup:81:stream_capture completed in 1.132 secs
+2018_11_27_22_40_26,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 104"
+2018_11_27_22_40_26,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_26,INFO,logging_setup:81:stream_capture 0.00299978256226
+2018_11_27_22_40_26,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@104)
+2018_11_27_22_40_26,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_26,INFO,logging_setup:81:stream_capture 0.125999927521
+2018_11_27_22_40_26,INFO,test_point:144:execute TRACTION_ENCODER_P5VJ_3, EXEC: True, VALUE: 5.0007576, PASSED: True
+2018_11_27_22_40_27,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00780>
+2018_11_27_22_40_27,INFO,logging_setup:81:stream_capture completed in 1.132 secs
+2018_11_27_22_40_27,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 105"
+2018_11_27_22_40_27,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_27,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_40_27,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@105)
+2018_11_27_22_40_27,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_27,INFO,logging_setup:81:stream_capture 0.126999855042
+2018_11_27_22_40_27,INFO,test_point:144:execute P5VK_3, EXEC: True, VALUE: 5.0007449, PASSED: True
+2018_11_27_22_40_28,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00C18>
+2018_11_27_22_40_28,INFO,logging_setup:81:stream_capture completed in 1.133 secs
+2018_11_27_22_40_28,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 107"
+2018_11_27_22_40_28,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_28,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_40_28,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@107)
+2018_11_27_22_40_28,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_28,INFO,logging_setup:81:stream_capture 0.128000020981
+2018_11_27_22_40_28,INFO,test_point:144:execute EXT_LTE_MODEM__USB_5V_1A_3, EXEC: True, VALUE: 4.9539143, PASSED: True
+2018_11_27_22_40_29,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00748>
+2018_11_27_22_40_29,INFO,logging_setup:81:stream_capture completed in 1.134 secs
+2018_11_27_22_40_29,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 108"
+2018_11_27_22_40_29,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_29,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_40_29,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@108)
+2018_11_27_22_40_29,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_29,INFO,logging_setup:81:stream_capture 0.128000020981
+2018_11_27_22_40_29,INFO,test_point:144:execute USB_5V_1B_3, EXEC: True, VALUE: 4.9551461, PASSED: True
+2018_11_27_22_40_30,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A004A8>
+2018_11_27_22_40_30,INFO,logging_setup:81:stream_capture completed in 1.133 secs
+2018_11_27_22_40_30,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 201"
+2018_11_27_22_40_30,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_30,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_40_30,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@201)
+2018_11_27_22_40_30,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_30,INFO,logging_setup:81:stream_capture 0.134000062943
+2018_11_27_22_40_30,INFO,test_point:144:execute FAN_P12VA_3, EXEC: True, VALUE: 11.949937, PASSED: True
+2018_11_27_22_40_31,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A007B8>
+2018_11_27_22_40_31,INFO,logging_setup:81:stream_capture completed in 1.138 secs
+2018_11_27_22_40_31,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 202"
+2018_11_27_22_40_31,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_31,INFO,logging_setup:81:stream_capture 0.0019998550415
+2018_11_27_22_40_31,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@202)
+2018_11_27_22_40_31,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_31,INFO,logging_setup:81:stream_capture 0.126999855042
+2018_11_27_22_40_31,INFO,test_point:144:execute SLANTED_LIDAR_P12VB_3, EXEC: True, VALUE: 11.949074, PASSED: True
+2018_11_27_22_40_32,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00898>
+2018_11_27_22_40_32,INFO,logging_setup:81:stream_capture completed in 1.132 secs
+2018_11_27_22_40_32,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 203"
+2018_11_27_22_40_32,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_32,INFO,logging_setup:81:stream_capture 0.00200009346008
+2018_11_27_22_40_32,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@203)
+2018_11_27_22_40_33,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_33,INFO,logging_setup:81:stream_capture 0.128000020981
+2018_11_27_22_40_33,INFO,test_point:144:execute P12VC_3, EXEC: True, VALUE: 11.950928, PASSED: True
+2018_11_27_22_40_34,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A008D0>
+2018_11_27_22_40_34,INFO,logging_setup:81:stream_capture completed in 1.133 secs
+2018_11_27_22_40_34,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 204"
+2018_11_27_22_40_34,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_34,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_40_34,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@204)
+2018_11_27_22_40_34,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_34,INFO,logging_setup:81:stream_capture 0.126999855042
+2018_11_27_22_40_34,INFO,test_point:144:execute H_LIDAR_P12VD_3, EXEC: True, VALUE: 11.950839, PASSED: True
+2018_11_27_22_40_35,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00908>
+2018_11_27_22_40_35,INFO,logging_setup:81:stream_capture completed in 1.132 secs
+2018_11_27_22_40_35,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 206"
+2018_11_27_22_40_35,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_35,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_40_35,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@206)
+2018_11_27_22_40_35,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_35,INFO,logging_setup:81:stream_capture 0.206000089645
+2018_11_27_22_40_35,INFO,test_point:144:execute P24VA_3, EXEC: True, VALUE: 24.300266, PASSED: True
+2018_11_27_22_40_36,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00940>
+2018_11_27_22_40_36,INFO,logging_setup:81:stream_capture completed in 1.211 secs
+2018_11_27_22_40_36,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 207"
+2018_11_27_22_40_36,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_36,INFO,logging_setup:81:stream_capture 0.0019998550415
+2018_11_27_22_40_36,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@207)
+2018_11_27_22_40_36,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_36,INFO,logging_setup:81:stream_capture 0.207000017166
+2018_11_27_22_40_36,INFO,test_point:144:execute IFM_RIGHT_P24VB_3, EXEC: True, VALUE: 24.298598, PASSED: True
+2018_11_27_22_40_37,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00978>
+2018_11_27_22_40_37,INFO,logging_setup:81:stream_capture completed in 1.211 secs
+2018_11_27_22_40_37,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 208"
+2018_11_27_22_40_37,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_37,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_40_37,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@208)
+2018_11_27_22_40_37,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_37,INFO,logging_setup:81:stream_capture 0.206000089645
+2018_11_27_22_40_37,INFO,test_point:144:execute IFM_FRONT_P24VC_3, EXEC: True, VALUE: 24.300394, PASSED: True
+2018_11_27_22_40_38,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A009B0>
+2018_11_27_22_40_38,INFO,logging_setup:81:stream_capture completed in 1.211 secs
+2018_11_27_22_40_38,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 209"
+2018_11_27_22_40_38,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_38,INFO,logging_setup:81:stream_capture 0.00399994850159
+2018_11_27_22_40_38,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@209)
+2018_11_27_22_40_39,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_39,INFO,logging_setup:81:stream_capture 0.206000089645
+2018_11_27_22_40_39,INFO,test_point:144:execute IFM_LEFT_P24VD_3, EXEC: True, VALUE: 24.300394, PASSED: True
+2018_11_27_22_40_40,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A009E8>
+2018_11_27_22_40_40,INFO,logging_setup:81:stream_capture completed in 1.212 secs
+2018_11_27_22_40_40,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 210"
+2018_11_27_22_40_40,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_40,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_40_40,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@210)
+2018_11_27_22_40_40,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_40,INFO,logging_setup:81:stream_capture 0.125
+2018_11_27_22_40_40,INFO,test_point:144:execute STEERING_3V_P3V3A_3, EXEC: True, VALUE: 3.3218637, PASSED: True
+2018_11_27_22_40_41,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00A20>
+2018_11_27_22_40_41,INFO,logging_setup:81:stream_capture completed in 1.132 secs
+2018_11_27_22_40_41,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 211"
+2018_11_27_22_40_41,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_41,INFO,logging_setup:81:stream_capture 0.00299978256226
+2018_11_27_22_40_41,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@211)
+2018_11_27_22_40_41,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_41,INFO,logging_setup:81:stream_capture 0.126999855042
+2018_11_27_22_40_41,INFO,test_point:144:execute STRT_PAUSE_P3V3B_3, EXEC: True, VALUE: 3.3203399, PASSED: True
+2018_11_27_22_40_42,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00A58>
+2018_11_27_22_40_42,INFO,logging_setup:81:stream_capture completed in 1.134 secs
+2018_11_27_22_40_42,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 213"
+2018_11_27_22_40_42,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_42,INFO,logging_setup:81:stream_capture 0.0019998550415
+2018_11_27_22_40_42,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@213)
+2018_11_27_22_40_42,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_42,INFO,logging_setup:81:stream_capture 0.128000020981
+2018_11_27_22_40_42,INFO,test_point:144:execute FRONT_CAM_P5VA_3, EXEC: True, VALUE: 4.982193, PASSED: True
+2018_11_27_22_40_43,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00A90>
+2018_11_27_22_40_43,INFO,logging_setup:81:stream_capture completed in 1.133 secs
+2018_11_27_22_40_43,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 214"
+2018_11_27_22_40_43,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_43,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_40_43,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@214)
+2018_11_27_22_40_43,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_43,INFO,logging_setup:81:stream_capture 0.125999927521
+2018_11_27_22_40_43,INFO,test_point:144:execute RIGHT_CAM_P5VB_3, EXEC: True, VALUE: 4.9671331, PASSED: True
+2018_11_27_22_40_44,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00AC8>
+2018_11_27_22_40_44,INFO,logging_setup:81:stream_capture completed in 1.131 secs
+2018_11_27_22_40_44,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 215"
+2018_11_27_22_40_44,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_44,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_40_44,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@215)
+2018_11_27_22_40_44,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_44,INFO,logging_setup:81:stream_capture 0.125999927521
+2018_11_27_22_40_44,INFO,test_point:144:execute LEFT_CAM_P5VC_3, EXEC: True, VALUE: 4.9956911, PASSED: True
+2018_11_27_22_40_45,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00B00>
+2018_11_27_22_40_45,INFO,logging_setup:81:stream_capture completed in 1.132 secs
+2018_11_27_22_40_45,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 216"
+2018_11_27_22_40_45,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_45,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_40_45,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@216)
+2018_11_27_22_40_45,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_45,INFO,logging_setup:81:stream_capture 0.128999948502
+2018_11_27_22_40_45,INFO,test_point:144:execute P5VD_3, EXEC: True, VALUE: 4.9970371, PASSED: True
+2018_11_27_22_40_46,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00B38>
+2018_11_27_22_40_46,INFO,logging_setup:81:stream_capture completed in 1.134 secs
+2018_11_27_22_40_46,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 217"
+2018_11_27_22_40_46,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_46,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_40_46,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@217)
+2018_11_27_22_40_46,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_46,INFO,logging_setup:81:stream_capture 0.128999948502
+2018_11_27_22_40_46,INFO,test_point:144:execute P5VE_3, EXEC: True, VALUE: 4.9970625, PASSED: True
+2018_11_27_22_40_47,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00B70>
+2018_11_27_22_40_47,INFO,logging_setup:81:stream_capture completed in 1.135 secs
+2018_11_27_22_40_47,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 218"
+2018_11_27_22_40_47,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_40_47,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_40_47,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@218)
+2018_11_27_22_40_48,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_40_48,INFO,logging_setup:81:stream_capture 0.125
+2018_11_27_22_40_48,INFO,test_point:144:execute P5VF_3, EXEC: True, VALUE: 4.9832215, PASSED: True
+2018_11_27_22_40_49,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004A00BA8>
+2018_11_27_22_40_49,INFO,logging_setup:81:stream_capture completed in 1.130 secs
+2018_11_27_22_40_49,INFO,test_point:144:execute KEY_SENSE_2, EXEC: True, VALUE: 1, PASSED: True
+2018_11_27_22_40_49,INFO,logging_setup:81:stream_capture <tests.bcm_power_tests.DutKeySenseMeasurement object at 0x0000000003528D30>
+2018_11_27_22_40_49,INFO,logging_setup:81:stream_capture completed in 0.014 secs
+2018_11_27_22_40_49,INFO,test_point:144:execute SWITCH_1, EXEC: True, VALUE: 1, PASSED: True
+2018_11_27_22_40_49,INFO,logging_setup:81:stream_capture <tests.bcm_misc.DUTEthPing object at 0x0000000004A00BA8>
+2018_11_27_22_40_49,INFO,logging_setup:81:stream_capture completed in 0.014 secs
+2018_11_27_22_40_49,DEBUG,bcm_interface:57:__init__ Connect: IP:192.168.100.1
+2018_11_27_22_40_49,INFO,bcm_interface:1017:run Connected...
+2018_11_27_22_40_49,DEBUG,bcm_interface:85:_run Cmd:/opt/shining_software/catkin_ws/src/lowsheen/src/production/bios_verify.py
+2018_11_27_22_40_49,DEBUG,bcm_interface:86:_run Args: -b 'BR03'
+2018_11_27_22_40_50,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_40_50,INFO,bcm_interface:104:_run APP:***BIOS INFORMATION***
+2018_11_27_22_40_50,INFO,bcm_interface:104:_run APP:[    0.000000] DMI: ADLINK TECHNOLOGY Inc. Express-SL/To be filled by O.E.M., BIOS 2.03.10.BR03 03/16/2018
+2018_11_27_22_40_50,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_40_50,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_40_50,INFO,bcm_interface:104:_run APP:PASS 1
+2018_11_27_22_40_50,INFO,bcm_interface:1041:run PASS 1
+2018_11_27_22_40_50,INFO,test_point:144:execute BIOS_1, EXEC: True, VALUE: 1, PASSED: True
+2018_11_27_22_40_50,INFO,logging_setup:81:stream_capture <tests.bcm_misc.DUTBiosVerify object at 0x0000000004A00BE0>
+2018_11_27_22_40_50,INFO,logging_setup:81:stream_capture completed in 1.234 secs
+2018_11_27_22_40_50,DEBUG,bcm_interface:57:__init__ Connect: IP:192.168.100.1
+2018_11_27_22_40_50,INFO,bcm_interface:523:run Connected...
+2018_11_27_22_40_50,DEBUG,bcm_interface:85:_run Cmd:/opt/shining_software/catkin_ws/src/lowsheen/src/production/usb_verify.py
+2018_11_27_22_40_50,DEBUG,bcm_interface:86:_run Args: 
+2018_11_27_22_40_51,INFO,bcm_interface:104:_run APP:Bus 006 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+2018_11_27_22_40_51,INFO,bcm_interface:104:_run APP:Bus 005 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+2018_11_27_22_40_51,INFO,bcm_interface:104:_run APP:Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+2018_11_27_22_40_51,INFO,bcm_interface:104:_run APP:Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+2018_11_27_22_40_51,INFO,bcm_interface:104:_run APP:Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+2018_11_27_22_40_51,INFO,bcm_interface:104:_run APP:Bus 001 Device 008: ID 0a12:0001 Cambridge Silicon Radio, Ltd Bluetooth Dongle (HCI mode)
+2018_11_27_22_40_51,INFO,bcm_interface:104:_run APP:Bus 001 Device 019: ID 0483:5710 STMicroelectronics Joystick in FS Mode
+2018_11_27_22_40_51,INFO,bcm_interface:104:_run APP:Bus 001 Device 006: ID 0bda:8152 Realtek Semiconductor Corp. 
+2018_11_27_22_40_51,INFO,bcm_interface:104:_run APP:Bus 001 Device 004: ID 0eef:c000 D-WAV Scientific Co., Ltd 
+2018_11_27_22_40_51,INFO,bcm_interface:104:_run APP:Bus 001 Device 003: ID 046d:c52b Logitech, Inc. Unifying Receiver
+2018_11_27_22_40_51,INFO,bcm_interface:104:_run APP:Bus 001 Device 002: ID 0bda:8179 Realtek Semiconductor Corp. RTL8188EUS 802.11n Wireless Network Adapter
+2018_11_27_22_40_51,INFO,bcm_interface:104:_run APP:Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+2018_11_27_22_40_51,INFO,bcm_interface:104:_run APP:PASS 0
+2018_11_27_22_40_51,INFO,bcm_interface:548:run PASS 5
+2018_11_27_22_40_51,INFO,test_point:144:execute USB_VERIFY_1, EXEC: True, VALUE: 5, PASSED: True
+2018_11_27_22_40_51,INFO,logging_setup:81:stream_capture <tests.bcm_usb_tests.DUTUsbVerify object at 0x0000000004A007F0>
+2018_11_27_22_40_51,INFO,logging_setup:81:stream_capture completed in 1.240 secs
+2018_11_27_22_40_51,DEBUG,bcm_interface:57:__init__ Connect: IP:192.168.100.1
+2018_11_27_22_40_51,INFO,bcm_interface:744:run Connected...
+2018_11_27_22_40_51,DEBUG,bcm_interface:85:_run Cmd:/opt/shining_software/catkin_ws/src/lowsheen/src/production/imu_verify.py
+2018_11_27_22_40_51,DEBUG,bcm_interface:86:_run Args: 
+2018_11_27_22_40_57,WARNING,bcm_interface:100:_run SYS:Trying to connect to mule.
+2018_11_27_22_40_57,WARNING,bcm_interface:100:_run SYS:Connected with USB
+2018_11_27_22_40_57,WARNING,bcm_interface:100:_run SYS:Trying to connect to mule.
+2018_11_27_22_40_57,WARNING,bcm_interface:100:_run SYS:Resetting stm
+2018_11_27_22_40_57,WARNING,bcm_interface:100:_run SYS:Trying to connect to mule.
+2018_11_27_22_40_57,WARNING,bcm_interface:100:_run SYS:Connected with USB
+2018_11_27_22_40_57,WARNING,bcm_interface:100:_run SYS:Control mode: MANUAL(0)
+2018_11_27_22_40_57,WARNING,bcm_interface:100:_run SYS:Water solenoid is likely disconnected! - Solution pump is likely disconnected! - 
+2018_11_27_22_40_57,WARNING,bcm_interface:100:_run SYS:Controller not in Forward mode - 
+2018_11_27_22_40_57,WARNING,bcm_interface:100:_run SYS:allow_debug_build is set, debug_build: 0x203
+2018_11_27_22_40_57,WARNING,bcm_interface:100:_run SYS:Successfully connected to mule device.
+2018_11_27_22_40_57,WARNING,bcm_interface:100:_run SYS:Water solenoid is likely disconnected! - Solution pump is likely disconnected! - 
+2018_11_27_22_40_57,WARNING,bcm_interface:100:_run SYS:Controller not in Forward mode - 
+2018_11_27_22_40_57,WARNING,bcm_interface:100:_run SYS:Calibrated gyro: {'gyro_bias_alt': -0.012817891517274634, 'gyro_noise_cutoff_alt': 0.0026952822595952284, 'gyro_scale': 1.0, 'gyro_bias': -0.002375596109804637, 'gyro_scale_alt': 1.0, 'gyro_noise_cutoff': 0.026216227192945009}
+2018_11_27_22_40_57,WARNING,bcm_interface:100:_run SYS:Sending gyro calibration: {'gyro_bias_alt': -0.012817891517274634, 'gyro_noise_cutoff_alt': 0.0026952822595952284, 'gyro_scale': 1.0, 'gyro_bias': -0.002375596109804637, 'gyro_scale_alt': 1.0, 'gyro_noise_cutoff': 0.026216227192945009}
+2018_11_27_22_40_57,INFO,bcm_interface:104:_run APP:Connect STM
+2018_11_27_22_40_57,INFO,bcm_interface:104:_run APP:Trying to connect to mule.
+2018_11_27_22_40_57,INFO,bcm_interface:104:_run APP:Connected with USB
+2018_11_27_22_40_57,INFO,bcm_interface:104:_run APP:Trying to connect to mule.
+2018_11_27_22_40_57,INFO,bcm_interface:104:_run APP:Resetting stm
+2018_11_27_22_40_57,INFO,bcm_interface:104:_run APP:Trying to connect to mule.
+2018_11_27_22_40_57,INFO,bcm_interface:104:_run APP:Connected with USB
+2018_11_27_22_40_57,INFO,bcm_interface:104:_run APP:exception in read_raw_packet:[Errno 110] Operation timed out
+2018_11_27_22_40_57,INFO,bcm_interface:104:_run APP:Control mode: MANUAL(0)
+2018_11_27_22_40_57,INFO,bcm_interface:104:_run APP:Water solenoid is likely disconnected! - Solution pump is likely disconnected! - 
+2018_11_27_22_40_57,INFO,bcm_interface:104:_run APP:Controller not in Forward mode - 
+2018_11_27_22_40_57,INFO,bcm_interface:104:_run APP:allow_debug_build is set, debug_build: 0x203
+2018_11_27_22_40_57,INFO,bcm_interface:104:_run APP:Successfully connected to mule device.
+2018_11_27_22_40_57,INFO,bcm_interface:104:_run APP:Water solenoid is likely disconnected! - Solution pump is likely disconnected! - 
+2018_11_27_22_40_57,INFO,bcm_interface:104:_run APP:Controller not in Forward mode - 
+2018_11_27_22_40_57,INFO,bcm_interface:104:_run APP:Calibrated gyro: {'gyro_bias_alt': -0.012817891517274634, 'gyro_noise_cutoff_alt': 0.0026952822595952284, 'gyro_scale': 1.0, 'gyro_bias': -0.002375596109804637, 'gyro_scale_alt': 1.0, 'gyro_noise_cutoff': 0.026216227192945009}
+2018_11_27_22_40_57,INFO,bcm_interface:104:_run APP:Sending gyro calibration: {'gyro_bias_alt': -0.012817891517274634, 'gyro_noise_cutoff_alt': 0.0026952822595952284, 'gyro_scale': 1.0, 'gyro_bias': -0.002375596109804637, 'gyro_scale_alt': 1.0, 'gyro_noise_cutoff': 0.026216227192945009}
+2018_11_27_22_40_57,INFO,bcm_interface:104:_run APP:PASS 0
+2018_11_27_22_40_57,INFO,bcm_interface:762:run PASS 0
+2018_11_27_22_40_57,INFO,test_point:144:execute IMU_1, EXEC: True, VALUE: True, PASSED: True
+2018_11_27_22_40_57,INFO,logging_setup:81:stream_capture <tests.bcm_misc.DUTImuVerify object at 0x0000000004A00860>
+2018_11_27_22_40_57,INFO,logging_setup:81:stream_capture completed in 6.073 secs
+2018_11_27_22_40_57,DEBUG,bcm_interface:57:__init__ Connect: IP:192.168.100.1
+2018_11_27_22_40_57,INFO,bcm_interface:807:run Connected...
+2018_11_27_22_40_57,DEBUG,bcm_interface:85:_run Cmd:/opt/shining_software/catkin_ws/src/lowsheen/src/production/imu_verify.py
+2018_11_27_22_40_57,DEBUG,bcm_interface:86:_run Args: 
+2018_11_27_22_41_03,WARNING,bcm_interface:100:_run SYS:Trying to connect to mule.
+2018_11_27_22_41_03,WARNING,bcm_interface:100:_run SYS:Connected with USB
+2018_11_27_22_41_03,WARNING,bcm_interface:100:_run SYS:Trying to connect to mule.
+2018_11_27_22_41_03,WARNING,bcm_interface:100:_run SYS:Resetting stm
+2018_11_27_22_41_03,WARNING,bcm_interface:100:_run SYS:Trying to connect to mule.
+2018_11_27_22_41_03,WARNING,bcm_interface:100:_run SYS:Connected with USB
+2018_11_27_22_41_03,WARNING,bcm_interface:100:_run SYS:Control mode: MANUAL(0)
+2018_11_27_22_41_03,WARNING,bcm_interface:100:_run SYS:Water solenoid is likely disconnected! - Solution pump is likely disconnected! - 
+2018_11_27_22_41_03,WARNING,bcm_interface:100:_run SYS:Controller not in Forward mode - 
+2018_11_27_22_41_03,WARNING,bcm_interface:100:_run SYS:allow_debug_build is set, debug_build: 0x203
+2018_11_27_22_41_03,WARNING,bcm_interface:100:_run SYS:Successfully connected to mule device.
+2018_11_27_22_41_03,WARNING,bcm_interface:100:_run SYS:Water solenoid is likely disconnected! - Solution pump is likely disconnected! - 
+2018_11_27_22_41_03,WARNING,bcm_interface:100:_run SYS:Controller not in Forward mode - 
+2018_11_27_22_41_03,WARNING,bcm_interface:100:_run SYS:Calibrated gyro: {'gyro_bias_alt': -0.01315177466151201, 'gyro_noise_cutoff_alt': 0.0024611844316572359, 'gyro_scale': 1.0, 'gyro_bias': -0.0019695511126277174, 'gyro_scale_alt': 1.0, 'gyro_noise_cutoff': 0.025446941187887456}
+2018_11_27_22_41_03,WARNING,bcm_interface:100:_run SYS:Sending gyro calibration: {'gyro_bias_alt': -0.01315177466151201, 'gyro_noise_cutoff_alt': 0.0024611844316572359, 'gyro_scale': 1.0, 'gyro_bias': -0.0019695511126277174, 'gyro_scale_alt': 1.0, 'gyro_noise_cutoff': 0.025446941187887456}
+2018_11_27_22_41_03,INFO,bcm_interface:104:_run APP:Connect STM
+2018_11_27_22_41_03,INFO,bcm_interface:104:_run APP:Trying to connect to mule.
+2018_11_27_22_41_03,INFO,bcm_interface:104:_run APP:Connected with USB
+2018_11_27_22_41_03,INFO,bcm_interface:104:_run APP:Trying to connect to mule.
+2018_11_27_22_41_03,INFO,bcm_interface:104:_run APP:Resetting stm
+2018_11_27_22_41_03,INFO,bcm_interface:104:_run APP:Trying to connect to mule.
+2018_11_27_22_41_03,INFO,bcm_interface:104:_run APP:Connected with USB
+2018_11_27_22_41_03,INFO,bcm_interface:104:_run APP:exception in read_raw_packet:[Errno 110] Operation timed out
+2018_11_27_22_41_03,INFO,bcm_interface:104:_run APP:Control mode: MANUAL(0)
+2018_11_27_22_41_03,INFO,bcm_interface:104:_run APP:Water solenoid is likely disconnected! - Solution pump is likely disconnected! - 
+2018_11_27_22_41_03,INFO,bcm_interface:104:_run APP:Controller not in Forward mode - 
+2018_11_27_22_41_03,INFO,bcm_interface:104:_run APP:allow_debug_build is set, debug_build: 0x203
+2018_11_27_22_41_03,INFO,bcm_interface:104:_run APP:Successfully connected to mule device.
+2018_11_27_22_41_03,INFO,bcm_interface:104:_run APP:Water solenoid is likely disconnected! - Solution pump is likely disconnected! - 
+2018_11_27_22_41_03,INFO,bcm_interface:104:_run APP:Controller not in Forward mode - 
+2018_11_27_22_41_03,INFO,bcm_interface:104:_run APP:Calibrated gyro: {'gyro_bias_alt': -0.01315177466151201, 'gyro_noise_cutoff_alt': 0.0024611844316572359, 'gyro_scale': 1.0, 'gyro_bias': -0.0019695511126277174, 'gyro_scale_alt': 1.0, 'gyro_noise_cutoff': 0.025446941187887456}
+2018_11_27_22_41_03,INFO,bcm_interface:104:_run APP:Sending gyro calibration: {'gyro_bias_alt': -0.01315177466151201, 'gyro_noise_cutoff_alt': 0.0024611844316572359, 'gyro_scale': 1.0, 'gyro_bias': -0.0019695511126277174, 'gyro_scale_alt': 1.0, 'gyro_noise_cutoff': 0.025446941187887456}
+2018_11_27_22_41_03,INFO,bcm_interface:104:_run APP:PASS 0
+2018_11_27_22_41_03,INFO,bcm_interface:825:run PASS 0
+2018_11_27_22_41_03,INFO,test_point:144:execute IMU_GYRO_1, EXEC: True, VALUE: True, PASSED: True
+2018_11_27_22_41_03,INFO,logging_setup:81:stream_capture <tests.bcm_misc.DUTImuGyroVerify object at 0x0000000004A00828>
+2018_11_27_22_41_03,INFO,logging_setup:81:stream_capture completed in 6.078 secs
+2018_11_27_22_41_03,DEBUG,bcm_interface:57:__init__ Connect: IP:192.168.100.1
+2018_11_27_22_41_03,INFO,bcm_interface:873:run Connected...
+2018_11_27_22_41_03,DEBUG,bcm_interface:85:_run Cmd:/opt/shining_software/catkin_ws/src/lowsheen/src/production/ifconfig_iperf.py
+2018_11_27_22_41_03,DEBUG,bcm_interface:86:_run Args: 
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:ifm_center Link encap:Ethernet  HWaddr 70:71:b3:00:06:08  
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          inet addr:192.168.0.1  Bcast:192.168.0.255  Mask:255.255.255.0
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:608/64 Scope:Link
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          RX packets:881 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          TX packets:75 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          RX bytes:91836 (91.8 KB)  TX bytes:4294 (4.2 KB)
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          Memory:df360000-df37ffff 
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:ifm_left  Link encap:Ethernet  HWaddr 70:71:b3:00:06:0a  
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          inet addr:192.168.1.1  Bcast:192.168.1.255  Mask:255.255.255.0
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:60a/64 Scope:Link
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          RX packets:822 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          TX packets:75 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          RX bytes:82382 (82.3 KB)  TX bytes:4294 (4.2 KB)
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          Memory:df320000-df33ffff 
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:ifm_right Link encap:Ethernet  HWaddr 70:71:b3:00:06:09  
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          inet addr:192.168.2.1  Bcast:192.168.2.255  Mask:255.255.255.0
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:609/64 Scope:Link
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          RX packets:889 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          TX packets:75 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          RX bytes:92421 (92.4 KB)  TX bytes:4294 (4.2 KB)
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          Memory:df340000-df35ffff 
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:lo        Link encap:Local Loopback  
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          inet addr:127.0.0.1  Mask:255.0.0.0
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          inet6 addr: ::1/128 Scope:Host
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          RX packets:129889 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          TX packets:129889 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1 
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          RX bytes:9093779 (9.0 MB)  TX bytes:9093779 (9.0 MB)
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:service0  Link encap:Ethernet  HWaddr 70:71:b3:00:06:0b  
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:60b/64 Scope:Link
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          RX packets:82414 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          TX packets:239889 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          RX bytes:6784724 (6.7 MB)  TX bytes:176554552 (176.5 MB)
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          Memory:df300000-df31ffff 
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:service0:0 Link encap:Ethernet  HWaddr 70:71:b3:00:06:0b  
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          inet addr:192.168.100.1  Bcast:192.168.100.255  Mask:255.255.255.0
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          Memory:df300000-df31ffff 
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:service1  Link encap:Ethernet  HWaddr 00:30:64:1e:84:ad  
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::230:64ff:fe1e:84ad/64 Scope:Link
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          RX packets:986 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          TX packets:587 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          RX bytes:106897 (106.8 KB)  TX bytes:201014 (201.0 KB)
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          Interrupt:16 Memory:df400000-df420000 
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:switch    Link encap:Ethernet  HWaddr 70:71:b3:00:06:0c  
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          inet addr:192.168.3.1  Bcast:192.168.3.255  Mask:255.255.255.0
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:60c/64 Scope:Link
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          RX packets:6380 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          TX packets:5152 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          RX bytes:634038 (634.0 KB)  TX bytes:495332 (495.3 KB)
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:          Memory:df260000-df27ffff 
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_41_04,INFO,bcm_interface:104:_run APP:PASS 0
+2018_11_27_22_41_05,INFO,bcm_interface:908:run PASS 1
+2018_11_27_22_41_05,INFO,test_point:144:execute FRONT_IFM_1, EXEC: True, VALUE: 1, PASSED: True
+2018_11_27_22_41_05,INFO,logging_setup:81:stream_capture <tests.bcm_misc.DUTEthVerify object at 0x0000000004A00780>
+2018_11_27_22_41_05,INFO,logging_setup:81:stream_capture completed in 1.244 secs
+2018_11_27_22_41_05,DEBUG,bcm_interface:57:__init__ Connect: IP:192.168.100.1
+2018_11_27_22_41_05,INFO,bcm_interface:873:run Connected...
+2018_11_27_22_41_05,DEBUG,bcm_interface:85:_run Cmd:/opt/shining_software/catkin_ws/src/lowsheen/src/production/ifconfig_iperf.py
+2018_11_27_22_41_05,DEBUG,bcm_interface:86:_run Args: 
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:ifm_center Link encap:Ethernet  HWaddr 70:71:b3:00:06:08  
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          inet addr:192.168.0.1  Bcast:192.168.0.255  Mask:255.255.255.0
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:608/64 Scope:Link
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          RX packets:881 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          TX packets:75 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          RX bytes:91836 (91.8 KB)  TX bytes:4294 (4.2 KB)
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          Memory:df360000-df37ffff 
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:ifm_left  Link encap:Ethernet  HWaddr 70:71:b3:00:06:0a  
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          inet addr:192.168.1.1  Bcast:192.168.1.255  Mask:255.255.255.0
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:60a/64 Scope:Link
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          RX packets:822 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          TX packets:75 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          RX bytes:82382 (82.3 KB)  TX bytes:4294 (4.2 KB)
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          Memory:df320000-df33ffff 
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:ifm_right Link encap:Ethernet  HWaddr 70:71:b3:00:06:09  
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          inet addr:192.168.2.1  Bcast:192.168.2.255  Mask:255.255.255.0
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:609/64 Scope:Link
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          RX packets:889 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          TX packets:75 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          RX bytes:92421 (92.4 KB)  TX bytes:4294 (4.2 KB)
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          Memory:df340000-df35ffff 
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:lo        Link encap:Local Loopback  
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          inet addr:127.0.0.1  Mask:255.0.0.0
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          inet6 addr: ::1/128 Scope:Host
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          RX packets:129889 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          TX packets:129889 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1 
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          RX bytes:9093779 (9.0 MB)  TX bytes:9093779 (9.0 MB)
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:service0  Link encap:Ethernet  HWaddr 70:71:b3:00:06:0b  
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:60b/64 Scope:Link
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          RX packets:82438 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          TX packets:239912 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          RX bytes:6787426 (6.7 MB)  TX bytes:176561965 (176.5 MB)
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          Memory:df300000-df31ffff 
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:service0:0 Link encap:Ethernet  HWaddr 70:71:b3:00:06:0b  
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          inet addr:192.168.100.1  Bcast:192.168.100.255  Mask:255.255.255.0
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          Memory:df300000-df31ffff 
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:service1  Link encap:Ethernet  HWaddr 00:30:64:1e:84:ad  
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::230:64ff:fe1e:84ad/64 Scope:Link
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          RX packets:986 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          TX packets:587 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          RX bytes:106897 (106.8 KB)  TX bytes:201014 (201.0 KB)
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          Interrupt:16 Memory:df400000-df420000 
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:switch    Link encap:Ethernet  HWaddr 70:71:b3:00:06:0c  
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          inet addr:192.168.3.1  Bcast:192.168.3.255  Mask:255.255.255.0
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:60c/64 Scope:Link
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          RX packets:6380 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          TX packets:5152 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          RX bytes:634038 (634.0 KB)  TX bytes:495332 (495.3 KB)
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:          Memory:df260000-df27ffff 
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_41_06,INFO,bcm_interface:104:_run APP:PASS 0
+2018_11_27_22_41_06,INFO,bcm_interface:908:run PASS 1
+2018_11_27_22_41_06,INFO,test_point:144:execute RIGHT_IFM_1, EXEC: True, VALUE: 1, PASSED: True
+2018_11_27_22_41_06,INFO,logging_setup:81:stream_capture <tests.bcm_misc.DUTEthVerify object at 0x0000000004A00C18>
+2018_11_27_22_41_06,INFO,logging_setup:81:stream_capture completed in 1.174 secs
+2018_11_27_22_41_06,DEBUG,bcm_interface:57:__init__ Connect: IP:192.168.100.1
+2018_11_27_22_41_06,INFO,bcm_interface:873:run Connected...
+2018_11_27_22_41_06,DEBUG,bcm_interface:85:_run Cmd:/opt/shining_software/catkin_ws/src/lowsheen/src/production/ifconfig_iperf.py
+2018_11_27_22_41_06,DEBUG,bcm_interface:86:_run Args: 
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:ifm_center Link encap:Ethernet  HWaddr 70:71:b3:00:06:08  
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          inet addr:192.168.0.1  Bcast:192.168.0.255  Mask:255.255.255.0
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:608/64 Scope:Link
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          RX packets:881 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          TX packets:75 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          RX bytes:91836 (91.8 KB)  TX bytes:4294 (4.2 KB)
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          Memory:df360000-df37ffff 
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:ifm_left  Link encap:Ethernet  HWaddr 70:71:b3:00:06:0a  
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          inet addr:192.168.1.1  Bcast:192.168.1.255  Mask:255.255.255.0
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:60a/64 Scope:Link
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          RX packets:822 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          TX packets:75 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          RX bytes:82382 (82.3 KB)  TX bytes:4294 (4.2 KB)
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          Memory:df320000-df33ffff 
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:ifm_right Link encap:Ethernet  HWaddr 70:71:b3:00:06:09  
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          inet addr:192.168.2.1  Bcast:192.168.2.255  Mask:255.255.255.0
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:609/64 Scope:Link
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          RX packets:889 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          TX packets:75 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          RX bytes:92421 (92.4 KB)  TX bytes:4294 (4.2 KB)
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          Memory:df340000-df35ffff 
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:lo        Link encap:Local Loopback  
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          inet addr:127.0.0.1  Mask:255.0.0.0
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          inet6 addr: ::1/128 Scope:Host
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          RX packets:129889 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          TX packets:129889 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1 
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          RX bytes:9093779 (9.0 MB)  TX bytes:9093779 (9.0 MB)
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:service0  Link encap:Ethernet  HWaddr 70:71:b3:00:06:0b  
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:60b/64 Scope:Link
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          RX packets:82457 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          TX packets:239933 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          RX bytes:6789800 (6.7 MB)  TX bytes:176569274 (176.5 MB)
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          Memory:df300000-df31ffff 
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:service0:0 Link encap:Ethernet  HWaddr 70:71:b3:00:06:0b  
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          inet addr:192.168.100.1  Bcast:192.168.100.255  Mask:255.255.255.0
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          Memory:df300000-df31ffff 
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:service1  Link encap:Ethernet  HWaddr 00:30:64:1e:84:ad  
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::230:64ff:fe1e:84ad/64 Scope:Link
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          RX packets:986 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          TX packets:587 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          RX bytes:106897 (106.8 KB)  TX bytes:201014 (201.0 KB)
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          Interrupt:16 Memory:df400000-df420000 
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:switch    Link encap:Ethernet  HWaddr 70:71:b3:00:06:0c  
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          inet addr:192.168.3.1  Bcast:192.168.3.255  Mask:255.255.255.0
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:60c/64 Scope:Link
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          RX packets:6380 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          TX packets:5152 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          RX bytes:634038 (634.0 KB)  TX bytes:495332 (495.3 KB)
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:          Memory:df260000-df27ffff 
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_41_07,INFO,bcm_interface:104:_run APP:PASS 0
+2018_11_27_22_41_07,INFO,bcm_interface:908:run PASS 1
+2018_11_27_22_41_07,INFO,test_point:144:execute LEFT_IFM_1, EXEC: True, VALUE: 1, PASSED: True
+2018_11_27_22_41_07,INFO,logging_setup:81:stream_capture <tests.bcm_misc.DUTEthVerify object at 0x0000000004A00748>
+2018_11_27_22_41_07,INFO,logging_setup:81:stream_capture completed in 1.223 secs
+2018_11_27_22_41_07,DEBUG,bcm_interface:57:__init__ Connect: IP:192.168.100.1
+2018_11_27_22_41_07,INFO,bcm_interface:873:run Connected...
+2018_11_27_22_41_07,DEBUG,bcm_interface:85:_run Cmd:/opt/shining_software/catkin_ws/src/lowsheen/src/production/ifconfig_iperf.py
+2018_11_27_22_41_07,DEBUG,bcm_interface:86:_run Args: 
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:ifm_center Link encap:Ethernet  HWaddr 70:71:b3:00:06:08  
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          inet addr:192.168.0.1  Bcast:192.168.0.255  Mask:255.255.255.0
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:608/64 Scope:Link
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          RX packets:881 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          TX packets:75 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          RX bytes:91836 (91.8 KB)  TX bytes:4294 (4.2 KB)
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          Memory:df360000-df37ffff 
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:ifm_left  Link encap:Ethernet  HWaddr 70:71:b3:00:06:0a  
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          inet addr:192.168.1.1  Bcast:192.168.1.255  Mask:255.255.255.0
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:60a/64 Scope:Link
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          RX packets:822 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          TX packets:75 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          RX bytes:82382 (82.3 KB)  TX bytes:4294 (4.2 KB)
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          Memory:df320000-df33ffff 
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:ifm_right Link encap:Ethernet  HWaddr 70:71:b3:00:06:09  
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          inet addr:192.168.2.1  Bcast:192.168.2.255  Mask:255.255.255.0
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:609/64 Scope:Link
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          RX packets:889 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          TX packets:75 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          RX bytes:92421 (92.4 KB)  TX bytes:4294 (4.2 KB)
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          Memory:df340000-df35ffff 
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:lo        Link encap:Local Loopback  
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          inet addr:127.0.0.1  Mask:255.0.0.0
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          inet6 addr: ::1/128 Scope:Host
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          RX packets:129889 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          TX packets:129889 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1 
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          RX bytes:9093779 (9.0 MB)  TX bytes:9093779 (9.0 MB)
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:service0  Link encap:Ethernet  HWaddr 70:71:b3:00:06:0b  
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:60b/64 Scope:Link
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          RX packets:82475 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          TX packets:239958 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          RX bytes:6792116 (6.7 MB)  TX bytes:176577083 (176.5 MB)
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          Memory:df300000-df31ffff 
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:service0:0 Link encap:Ethernet  HWaddr 70:71:b3:00:06:0b  
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          inet addr:192.168.100.1  Bcast:192.168.100.255  Mask:255.255.255.0
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          Memory:df300000-df31ffff 
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:service1  Link encap:Ethernet  HWaddr 00:30:64:1e:84:ad  
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::230:64ff:fe1e:84ad/64 Scope:Link
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          RX packets:986 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          TX packets:587 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          RX bytes:106897 (106.8 KB)  TX bytes:201014 (201.0 KB)
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          Interrupt:16 Memory:df400000-df420000 
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:switch    Link encap:Ethernet  HWaddr 70:71:b3:00:06:0c  
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          inet addr:192.168.3.1  Bcast:192.168.3.255  Mask:255.255.255.0
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:60c/64 Scope:Link
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          RX packets:6380 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          TX packets:5152 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          RX bytes:634038 (634.0 KB)  TX bytes:495332 (495.3 KB)
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:          Memory:df260000-df27ffff 
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_41_08,INFO,bcm_interface:104:_run APP:PASS 0
+2018_11_27_22_41_08,INFO,bcm_interface:908:run PASS 1
+2018_11_27_22_41_08,INFO,test_point:144:execute SWITCH_1, EXEC: True, VALUE: 1, PASSED: True
+2018_11_27_22_41_08,INFO,logging_setup:81:stream_capture <tests.bcm_misc.DUTEthVerify object at 0x0000000004A004A8>
+2018_11_27_22_41_08,INFO,logging_setup:81:stream_capture completed in 1.253 secs
+2018_11_27_22_41_08,INFO,logging_setup:81:stream_capture Board type:115 testing complete...
+2018_11_27_22_41_08,INFO,logging_setup:81:stream_capture POWEROFF NOT REQUESTED, LEAVING DUT POWERED ON!!!
+2018_11_27_22_41_08,INFO,logging_setup:81:stream_capture WARN: Test Coverage 141/76, Test Cases/Tests run
+2018_11_27_22_41_08,INFO,logging_setup:81:stream_capture Test Failures 0
+2018_11_27_22_41_08,INFO,logging_setup:81:stream_capture Test duration:106sec
+2018_11_27_22_41_08,INFO,logging_setup:81:stream_capture Traceback (most recent call last):
+2018_11_27_22_41_08,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\BCM\BCM_test.py", line 106, in <module>
+2018_11_27_22_41_08,INFO,logging_setup:81:stream_capture testCount += measurement_tests(meas_assets)
+2018_11_27_22_41_08,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\BCM\control\measurement_tests.py", line 155, in measurement_tests
+2018_11_27_22_41_08,INFO,logging_setup:81:stream_capture meas.run()
+2018_11_27_22_41_08,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\polish\measurement\measurement.py", line 63, in run
+2018_11_27_22_41_08,INFO,logging_setup:81:stream_capture self.measure()
+2018_11_27_22_41_08,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\BCM\tests\bcm_misc.py", line 177, in measure
+2018_11_27_22_41_08,INFO,logging_setup:81:stream_capture self.test_points[self.test_point_name].execute(value)
+2018_11_27_22_41_08,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\polish\test_point\test_point.py", line 132, in execute
+2018_11_27_22_41_08,INFO,logging_setup:81:stream_capture pass_fail = self._execute(value, raiseOnFail)
+2018_11_27_22_41_08,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\polish\test_point\test_point.py", line 149, in _execute
+2018_11_27_22_41_08,INFO,logging_setup:81:stream_capture raise TestPointDoubleExecutionError('{self.unique_id} attempted to execute twice'.format(**locals()))
+2018_11_27_22_41_08,INFO,logging_setup:81:stream_capture polish.test_point.test_point
+2018_11_27_22_41_08,INFO,logging_setup:81:stream_capture .
+2018_11_27_22_41_08,INFO,logging_setup:81:stream_capture TestPointDoubleExecutionError
+2018_11_27_22_41_08,INFO,logging_setup:81:stream_capture : 
+2018_11_27_22_41_08,INFO,logging_setup:81:stream_capture SWITCH_1 attempted to execute twice

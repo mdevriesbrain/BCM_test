@@ -1,0 +1,519 @@
+2018_11_27_22_14_56,INFO,logging_setup:43:init_project_logger info
+2018_11_27_22_14_56,INFO,logging_setup:81:stream_capture *IDN?
+2018_11_27_22_14_56,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_14_56,INFO,logging_setup:81:stream_capture 0.0240001678467
+2018_11_27_22_14_56,INFO,logging_setup:81:stream_capture *IDN?
+2018_11_27_22_14_56,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_14_56,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_14_56,INFO,logging_setup:81:stream_capture *IDN?
+2018_11_27_22_14_56,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_22_14_56,INFO,logging_setup:81:stream_capture 0.0249998569489
+2018_11_27_22_14_56,INFO,logging_setup:81:stream_capture Begin Testing Board type:115...
+2018_11_27_22_14_56,INFO,logging_setup:81:stream_capture VOLT 36
+2018_11_27_22_14_56,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_14_56,INFO,logging_setup:81:stream_capture 0.00100016593933
+2018_11_27_22_14_56,INFO,logging_setup:81:stream_capture CURR 2.6
+2018_11_27_22_14_56,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_14_56,INFO,logging_setup:81:stream_capture 0.000999927520752
+2018_11_27_22_14_56,INFO,logging_setup:81:stream_capture SOUR:OUTP 1
+2018_11_27_22_14_56,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_14_56,INFO,logging_setup:81:stream_capture 0.00100016593933
+2018_11_27_22_14_56,INFO,logging_setup:81:stream_capture <control.bcm_power.DutPower object at 0x0000000004754C18>
+2018_11_27_22_14_56,INFO,logging_setup:81:stream_capture completed in 0.004 secs
+2018_11_27_22_14_56,INFO,logging_setup:81:stream_capture SOUR:DIG:DATA:BYTE 2, (@202)
+2018_11_27_22_14_56,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_14_56,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_27_22_14_57,INFO,logging_setup:81:stream_capture <control.bcm_power.DutKeySenseOn object at 0x0000000003128D30>
+2018_11_27_22_14_57,INFO,logging_setup:81:stream_capture completed in 1.005 secs
+2018_11_27_22_14_57,INFO,logging_setup:81:stream_capture VOLT 24
+2018_11_27_22_14_57,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_14_57,INFO,logging_setup:81:stream_capture 0.00100016593933
+2018_11_27_22_14_57,INFO,logging_setup:81:stream_capture CURR 2.6
+2018_11_27_22_14_57,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_14_57,INFO,logging_setup:81:stream_capture 0.000999927520752
+2018_11_27_22_14_57,INFO,logging_setup:81:stream_capture SOUR:OUTP 1
+2018_11_27_22_14_57,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_22_14_57,INFO,logging_setup:81:stream_capture 0.000999927520752
+2018_11_27_22_14_57,INFO,logging_setup:81:stream_capture <control.bcm_power.DutPower object at 0x0000000003128D30>
+2018_11_27_22_14_57,INFO,logging_setup:81:stream_capture completed in 0.005 secs
+2018_11_27_22_14_57,INFO,test_point:144:execute KEY_SENSE_2, EXEC: True, VALUE: 1, PASSED: True
+2018_11_27_22_14_57,INFO,logging_setup:81:stream_capture <tests.bcm_power_tests.DutKeySenseMeasurement object at 0x0000000003128D30>
+2018_11_27_22_14_57,INFO,logging_setup:81:stream_capture completed in 0.016 secs
+2018_11_27_22_14_57,INFO,test_point:144:execute SWITCH_1, EXEC: True, VALUE: 1, PASSED: True
+2018_11_27_22_14_57,INFO,logging_setup:81:stream_capture <tests.bcm_misc.DUTEthPing object at 0x0000000004754C18>
+2018_11_27_22_14_57,INFO,logging_setup:81:stream_capture completed in 0.013 secs
+2018_11_27_22_14_57,DEBUG,bcm_interface:57:__init__ Connect: IP:192.168.100.1
+2018_11_27_22_14_57,INFO,bcm_interface:1017:run Connected...
+2018_11_27_22_14_57,DEBUG,bcm_interface:85:_run Cmd:/opt/shining_software/catkin_ws/src/lowsheen/src/production/bios_verify.py
+2018_11_27_22_14_57,DEBUG,bcm_interface:86:_run Args: -b 'BR03'
+2018_11_27_22_14_58,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_14_58,INFO,bcm_interface:104:_run APP:***BIOS INFORMATION***
+2018_11_27_22_14_58,INFO,bcm_interface:104:_run APP:[    0.000000] DMI: ADLINK TECHNOLOGY Inc. Express-SL/To be filled by O.E.M., BIOS 2.03.10.BR03 03/16/2018
+2018_11_27_22_14_58,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_14_58,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_14_58,INFO,bcm_interface:104:_run APP:PASS 1
+2018_11_27_22_14_58,INFO,bcm_interface:1041:run PASS 1
+2018_11_27_22_14_58,INFO,test_point:144:execute BIOS_1, EXEC: True, VALUE: 1, PASSED: True
+2018_11_27_22_14_58,INFO,logging_setup:81:stream_capture <tests.bcm_misc.DUTBiosVerify object at 0x0000000004754C50>
+2018_11_27_22_14_58,INFO,logging_setup:81:stream_capture completed in 1.411 secs
+2018_11_27_22_14_58,DEBUG,bcm_interface:57:__init__ Connect: IP:192.168.100.1
+2018_11_27_22_14_59,INFO,bcm_interface:523:run Connected...
+2018_11_27_22_14_59,DEBUG,bcm_interface:85:_run Cmd:/opt/shining_software/catkin_ws/src/lowsheen/src/production/usb_verify.py
+2018_11_27_22_14_59,DEBUG,bcm_interface:86:_run Args: 
+2018_11_27_22_15_00,INFO,bcm_interface:104:_run APP:Bus 006 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+2018_11_27_22_15_00,INFO,bcm_interface:104:_run APP:Bus 005 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+2018_11_27_22_15_00,INFO,bcm_interface:104:_run APP:Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+2018_11_27_22_15_00,INFO,bcm_interface:104:_run APP:Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+2018_11_27_22_15_00,INFO,bcm_interface:104:_run APP:Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+2018_11_27_22_15_00,INFO,bcm_interface:104:_run APP:Bus 001 Device 008: ID 0a12:0001 Cambridge Silicon Radio, Ltd Bluetooth Dongle (HCI mode)
+2018_11_27_22_15_00,INFO,bcm_interface:104:_run APP:Bus 001 Device 013: ID 0483:5710 STMicroelectronics Joystick in FS Mode
+2018_11_27_22_15_00,INFO,bcm_interface:104:_run APP:Bus 001 Device 006: ID 0bda:8152 Realtek Semiconductor Corp. 
+2018_11_27_22_15_00,INFO,bcm_interface:104:_run APP:Bus 001 Device 004: ID 0eef:c000 D-WAV Scientific Co., Ltd 
+2018_11_27_22_15_00,INFO,bcm_interface:104:_run APP:Bus 001 Device 003: ID 046d:c52b Logitech, Inc. Unifying Receiver
+2018_11_27_22_15_00,INFO,bcm_interface:104:_run APP:Bus 001 Device 002: ID 0bda:8179 Realtek Semiconductor Corp. RTL8188EUS 802.11n Wireless Network Adapter
+2018_11_27_22_15_00,INFO,bcm_interface:104:_run APP:Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+2018_11_27_22_15_00,INFO,bcm_interface:104:_run APP:PASS 0
+2018_11_27_22_15_00,INFO,bcm_interface:548:run PASS 5
+2018_11_27_22_15_00,INFO,test_point:144:execute USB_VERIFY_1, EXEC: True, VALUE: 5, PASSED: True
+2018_11_27_22_15_00,INFO,logging_setup:81:stream_capture <tests.bcm_usb_tests.DUTUsbVerify object at 0x0000000004754978>
+2018_11_27_22_15_00,INFO,logging_setup:81:stream_capture completed in 1.207 secs
+2018_11_27_22_15_00,DEBUG,bcm_interface:57:__init__ Connect: IP:192.168.100.1
+2018_11_27_22_15_00,INFO,bcm_interface:744:run Connected...
+2018_11_27_22_15_00,DEBUG,bcm_interface:85:_run Cmd:/opt/shining_software/catkin_ws/src/lowsheen/src/production/imu_verify.py
+2018_11_27_22_15_00,DEBUG,bcm_interface:86:_run Args: 
+2018_11_27_22_15_06,WARNING,bcm_interface:100:_run SYS:Trying to connect to mule.
+2018_11_27_22_15_06,WARNING,bcm_interface:100:_run SYS:Connected with USB
+2018_11_27_22_15_06,WARNING,bcm_interface:100:_run SYS:Trying to connect to mule.
+2018_11_27_22_15_06,WARNING,bcm_interface:100:_run SYS:Resetting stm
+2018_11_27_22_15_06,WARNING,bcm_interface:100:_run SYS:Trying to connect to mule.
+2018_11_27_22_15_06,WARNING,bcm_interface:100:_run SYS:Connected with USB
+2018_11_27_22_15_06,WARNING,bcm_interface:100:_run SYS:Control mode: MANUAL(0)
+2018_11_27_22_15_06,WARNING,bcm_interface:100:_run SYS:Water solenoid is likely disconnected! - Solution pump is likely disconnected! - 
+2018_11_27_22_15_06,WARNING,bcm_interface:100:_run SYS:Controller not in Forward mode - 
+2018_11_27_22_15_06,WARNING,bcm_interface:100:_run SYS:allow_debug_build is set, debug_build: 0x203
+2018_11_27_22_15_06,WARNING,bcm_interface:100:_run SYS:Successfully connected to mule device.
+2018_11_27_22_15_06,WARNING,bcm_interface:100:_run SYS:Water solenoid is likely disconnected! - Solution pump is likely disconnected! - 
+2018_11_27_22_15_06,WARNING,bcm_interface:100:_run SYS:Controller not in Forward mode - 
+2018_11_27_22_15_06,WARNING,bcm_interface:100:_run SYS:Calibrated gyro: {'gyro_bias_alt': -0.01183320396941983, 'gyro_noise_cutoff_alt': 0.0024467235124467478, 'gyro_scale': 1.0, 'gyro_bias': -0.0017333560162350531, 'gyro_scale_alt': 1.0, 'gyro_noise_cutoff': 0.025207540592104703}
+2018_11_27_22_15_06,WARNING,bcm_interface:100:_run SYS:Sending gyro calibration: {'gyro_bias_alt': -0.01183320396941983, 'gyro_noise_cutoff_alt': 0.0024467235124467478, 'gyro_scale': 1.0, 'gyro_bias': -0.0017333560162350531, 'gyro_scale_alt': 1.0, 'gyro_noise_cutoff': 0.025207540592104703}
+2018_11_27_22_15_06,INFO,bcm_interface:104:_run APP:Connect STM
+2018_11_27_22_15_06,INFO,bcm_interface:104:_run APP:Trying to connect to mule.
+2018_11_27_22_15_06,INFO,bcm_interface:104:_run APP:Connected with USB
+2018_11_27_22_15_06,INFO,bcm_interface:104:_run APP:Trying to connect to mule.
+2018_11_27_22_15_06,INFO,bcm_interface:104:_run APP:Resetting stm
+2018_11_27_22_15_06,INFO,bcm_interface:104:_run APP:Trying to connect to mule.
+2018_11_27_22_15_06,INFO,bcm_interface:104:_run APP:Connected with USB
+2018_11_27_22_15_06,INFO,bcm_interface:104:_run APP:exception in read_raw_packet:[Errno 110] Operation timed out
+2018_11_27_22_15_06,INFO,bcm_interface:104:_run APP:Control mode: MANUAL(0)
+2018_11_27_22_15_06,INFO,bcm_interface:104:_run APP:Water solenoid is likely disconnected! - Solution pump is likely disconnected! - 
+2018_11_27_22_15_06,INFO,bcm_interface:104:_run APP:Controller not in Forward mode - 
+2018_11_27_22_15_06,INFO,bcm_interface:104:_run APP:allow_debug_build is set, debug_build: 0x203
+2018_11_27_22_15_06,INFO,bcm_interface:104:_run APP:Successfully connected to mule device.
+2018_11_27_22_15_06,INFO,bcm_interface:104:_run APP:Water solenoid is likely disconnected! - Solution pump is likely disconnected! - 
+2018_11_27_22_15_06,INFO,bcm_interface:104:_run APP:Controller not in Forward mode - 
+2018_11_27_22_15_06,INFO,bcm_interface:104:_run APP:Calibrated gyro: {'gyro_bias_alt': -0.01183320396941983, 'gyro_noise_cutoff_alt': 0.0024467235124467478, 'gyro_scale': 1.0, 'gyro_bias': -0.0017333560162350531, 'gyro_scale_alt': 1.0, 'gyro_noise_cutoff': 0.025207540592104703}
+2018_11_27_22_15_06,INFO,bcm_interface:104:_run APP:Sending gyro calibration: {'gyro_bias_alt': -0.01183320396941983, 'gyro_noise_cutoff_alt': 0.0024467235124467478, 'gyro_scale': 1.0, 'gyro_bias': -0.0017333560162350531, 'gyro_scale_alt': 1.0, 'gyro_noise_cutoff': 0.025207540592104703}
+2018_11_27_22_15_06,INFO,bcm_interface:104:_run APP:PASS 0
+2018_11_27_22_15_06,INFO,bcm_interface:762:run PASS 0
+2018_11_27_22_15_06,INFO,test_point:144:execute IMU_1, EXEC: True, VALUE: True, PASSED: True
+2018_11_27_22_15_06,INFO,logging_setup:81:stream_capture <tests.bcm_misc.DUTImuVerify object at 0x0000000004754C88>
+2018_11_27_22_15_06,INFO,logging_setup:81:stream_capture completed in 6.074 secs
+2018_11_27_22_15_06,DEBUG,bcm_interface:57:__init__ Connect: IP:192.168.100.1
+2018_11_27_22_15_06,INFO,bcm_interface:807:run Connected...
+2018_11_27_22_15_06,DEBUG,bcm_interface:85:_run Cmd:/opt/shining_software/catkin_ws/src/lowsheen/src/production/imu_verify.py
+2018_11_27_22_15_06,DEBUG,bcm_interface:86:_run Args: 
+2018_11_27_22_15_12,WARNING,bcm_interface:100:_run SYS:Trying to connect to mule.
+2018_11_27_22_15_12,WARNING,bcm_interface:100:_run SYS:Connected with USB
+2018_11_27_22_15_12,WARNING,bcm_interface:100:_run SYS:Trying to connect to mule.
+2018_11_27_22_15_12,WARNING,bcm_interface:100:_run SYS:Resetting stm
+2018_11_27_22_15_12,WARNING,bcm_interface:100:_run SYS:Trying to connect to mule.
+2018_11_27_22_15_12,WARNING,bcm_interface:100:_run SYS:Connected with USB
+2018_11_27_22_15_12,WARNING,bcm_interface:100:_run SYS:Control mode: MANUAL(0)
+2018_11_27_22_15_12,WARNING,bcm_interface:100:_run SYS:Water solenoid is likely disconnected! - Solution pump is likely disconnected! - 
+2018_11_27_22_15_12,WARNING,bcm_interface:100:_run SYS:Controller not in Forward mode - 
+2018_11_27_22_15_12,WARNING,bcm_interface:100:_run SYS:allow_debug_build is set, debug_build: 0x203
+2018_11_27_22_15_12,WARNING,bcm_interface:100:_run SYS:Successfully connected to mule device.
+2018_11_27_22_15_12,WARNING,bcm_interface:100:_run SYS:Water solenoid is likely disconnected! - Solution pump is likely disconnected! - 
+2018_11_27_22_15_12,WARNING,bcm_interface:100:_run SYS:Controller not in Forward mode - 
+2018_11_27_22_15_12,WARNING,bcm_interface:100:_run SYS:Calibrated gyro: {'gyro_bias_alt': -0.01184381877882751, 'gyro_noise_cutoff_alt': 0.0023189678124649151, 'gyro_scale': 1.0, 'gyro_bias': -0.0015099058533131163, 'gyro_scale_alt': 1.0, 'gyro_noise_cutoff': 0.025738466691246291}
+2018_11_27_22_15_12,WARNING,bcm_interface:100:_run SYS:Sending gyro calibration: {'gyro_bias_alt': -0.01184381877882751, 'gyro_noise_cutoff_alt': 0.0023189678124649151, 'gyro_scale': 1.0, 'gyro_bias': -0.0015099058533131163, 'gyro_scale_alt': 1.0, 'gyro_noise_cutoff': 0.025738466691246291}
+2018_11_27_22_15_12,INFO,bcm_interface:104:_run APP:Connect STM
+2018_11_27_22_15_12,INFO,bcm_interface:104:_run APP:Trying to connect to mule.
+2018_11_27_22_15_12,INFO,bcm_interface:104:_run APP:Connected with USB
+2018_11_27_22_15_12,INFO,bcm_interface:104:_run APP:Trying to connect to mule.
+2018_11_27_22_15_12,INFO,bcm_interface:104:_run APP:Resetting stm
+2018_11_27_22_15_12,INFO,bcm_interface:104:_run APP:Trying to connect to mule.
+2018_11_27_22_15_12,INFO,bcm_interface:104:_run APP:Connected with USB
+2018_11_27_22_15_12,INFO,bcm_interface:104:_run APP:exception in read_raw_packet:[Errno 110] Operation timed out
+2018_11_27_22_15_12,INFO,bcm_interface:104:_run APP:Control mode: MANUAL(0)
+2018_11_27_22_15_12,INFO,bcm_interface:104:_run APP:Water solenoid is likely disconnected! - Solution pump is likely disconnected! - 
+2018_11_27_22_15_12,INFO,bcm_interface:104:_run APP:Controller not in Forward mode - 
+2018_11_27_22_15_12,INFO,bcm_interface:104:_run APP:allow_debug_build is set, debug_build: 0x203
+2018_11_27_22_15_12,INFO,bcm_interface:104:_run APP:Successfully connected to mule device.
+2018_11_27_22_15_12,INFO,bcm_interface:104:_run APP:Water solenoid is likely disconnected! - Solution pump is likely disconnected! - 
+2018_11_27_22_15_12,INFO,bcm_interface:104:_run APP:Controller not in Forward mode - 
+2018_11_27_22_15_12,INFO,bcm_interface:104:_run APP:Calibrated gyro: {'gyro_bias_alt': -0.01184381877882751, 'gyro_noise_cutoff_alt': 0.0023189678124649151, 'gyro_scale': 1.0, 'gyro_bias': -0.0015099058533131163, 'gyro_scale_alt': 1.0, 'gyro_noise_cutoff': 0.025738466691246291}
+2018_11_27_22_15_12,INFO,bcm_interface:104:_run APP:Sending gyro calibration: {'gyro_bias_alt': -0.01184381877882751, 'gyro_noise_cutoff_alt': 0.0023189678124649151, 'gyro_scale': 1.0, 'gyro_bias': -0.0015099058533131163, 'gyro_scale_alt': 1.0, 'gyro_noise_cutoff': 0.025738466691246291}
+2018_11_27_22_15_12,INFO,bcm_interface:104:_run APP:PASS 0
+2018_11_27_22_15_12,INFO,bcm_interface:825:run PASS 0
+2018_11_27_22_15_12,INFO,test_point:144:execute IMU_GYRO_1, EXEC: True, VALUE: True, PASSED: True
+2018_11_27_22_15_12,INFO,logging_setup:81:stream_capture <tests.bcm_misc.DUTImuGyroVerify object at 0x0000000004754CC0>
+2018_11_27_22_15_12,INFO,logging_setup:81:stream_capture completed in 6.107 secs
+2018_11_27_22_15_12,DEBUG,bcm_interface:57:__init__ Connect: IP:192.168.100.1
+2018_11_27_22_15_12,INFO,bcm_interface:873:run Connected...
+2018_11_27_22_15_12,DEBUG,bcm_interface:85:_run Cmd:/opt/shining_software/catkin_ws/src/lowsheen/src/production/ifconfig_iperf.py
+2018_11_27_22_15_12,DEBUG,bcm_interface:86:_run Args: 
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:ifm_center Link encap:Ethernet  HWaddr 70:71:b3:00:06:08  
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          inet addr:192.168.0.1  Bcast:192.168.0.255  Mask:255.255.255.0
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:608/64 Scope:Link
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          RX packets:871 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          TX packets:63 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          RX bytes:90432 (90.4 KB)  TX bytes:3622 (3.6 KB)
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          Memory:df360000-df37ffff 
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:ifm_left  Link encap:Ethernet  HWaddr 70:71:b3:00:06:0a  
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          inet addr:192.168.1.1  Bcast:192.168.1.255  Mask:255.255.255.0
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:60a/64 Scope:Link
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          RX packets:814 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          TX packets:63 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          RX bytes:81494 (81.4 KB)  TX bytes:3622 (3.6 KB)
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          Memory:df320000-df33ffff 
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:ifm_right Link encap:Ethernet  HWaddr 70:71:b3:00:06:09  
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          inet addr:192.168.2.1  Bcast:192.168.2.255  Mask:255.255.255.0
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:609/64 Scope:Link
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          RX packets:879 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          TX packets:63 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          RX bytes:91017 (91.0 KB)  TX bytes:3622 (3.6 KB)
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          Memory:df340000-df35ffff 
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:lo        Link encap:Local Loopback  
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          inet addr:127.0.0.1  Mask:255.0.0.0
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          inet6 addr: ::1/128 Scope:Host
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          RX packets:125787 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          TX packets:125787 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1 
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          RX bytes:8813683 (8.8 MB)  TX bytes:8813683 (8.8 MB)
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:service0  Link encap:Ethernet  HWaddr 70:71:b3:00:06:0b  
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:60b/64 Scope:Link
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          RX packets:75686 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          TX packets:226160 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          RX bytes:6217115 (6.2 MB)  TX bytes:167540315 (167.5 MB)
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          Memory:df300000-df31ffff 
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:service0:0 Link encap:Ethernet  HWaddr 70:71:b3:00:06:0b  
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          inet addr:192.168.100.1  Bcast:192.168.100.255  Mask:255.255.255.0
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          Memory:df300000-df31ffff 
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:service1  Link encap:Ethernet  HWaddr 00:30:64:1e:84:ad  
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::230:64ff:fe1e:84ad/64 Scope:Link
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          RX packets:978 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          TX packets:523 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          RX bytes:105821 (105.8 KB)  TX bytes:178870 (178.8 KB)
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          Interrupt:16 Memory:df400000-df420000 
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:switch    Link encap:Ethernet  HWaddr 70:71:b3:00:06:0c  
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          inet addr:192.168.3.1  Bcast:192.168.3.255  Mask:255.255.255.0
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:60c/64 Scope:Link
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          RX packets:6360 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          TX packets:5130 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          RX bytes:631908 (631.9 KB)  TX bytes:493976 (493.9 KB)
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:          Memory:df260000-df27ffff 
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_15_13,INFO,bcm_interface:104:_run APP:PASS 0
+2018_11_27_22_15_13,INFO,bcm_interface:908:run PASS 1
+2018_11_27_22_15_13,INFO,test_point:144:execute FRONT_IFM_1, EXEC: True, VALUE: 1, PASSED: True
+2018_11_27_22_15_13,INFO,logging_setup:81:stream_capture <tests.bcm_misc.DUTEthVerify object at 0x0000000004754CF8>
+2018_11_27_22_15_13,INFO,logging_setup:81:stream_capture completed in 1.165 secs
+2018_11_27_22_15_13,DEBUG,bcm_interface:57:__init__ Connect: IP:192.168.100.1
+2018_11_27_22_15_13,INFO,bcm_interface:873:run Connected...
+2018_11_27_22_15_13,DEBUG,bcm_interface:85:_run Cmd:/opt/shining_software/catkin_ws/src/lowsheen/src/production/ifconfig_iperf.py
+2018_11_27_22_15_13,DEBUG,bcm_interface:86:_run Args: 
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:ifm_center Link encap:Ethernet  HWaddr 70:71:b3:00:06:08  
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          inet addr:192.168.0.1  Bcast:192.168.0.255  Mask:255.255.255.0
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:608/64 Scope:Link
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          RX packets:871 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          TX packets:63 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          RX bytes:90432 (90.4 KB)  TX bytes:3622 (3.6 KB)
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          Memory:df360000-df37ffff 
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:ifm_left  Link encap:Ethernet  HWaddr 70:71:b3:00:06:0a  
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          inet addr:192.168.1.1  Bcast:192.168.1.255  Mask:255.255.255.0
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:60a/64 Scope:Link
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          RX packets:814 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          TX packets:63 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          RX bytes:81494 (81.4 KB)  TX bytes:3622 (3.6 KB)
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          Memory:df320000-df33ffff 
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:ifm_right Link encap:Ethernet  HWaddr 70:71:b3:00:06:09  
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          inet addr:192.168.2.1  Bcast:192.168.2.255  Mask:255.255.255.0
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:609/64 Scope:Link
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          RX packets:879 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          TX packets:63 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          RX bytes:91017 (91.0 KB)  TX bytes:3622 (3.6 KB)
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          Memory:df340000-df35ffff 
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:lo        Link encap:Local Loopback  
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          inet addr:127.0.0.1  Mask:255.0.0.0
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          inet6 addr: ::1/128 Scope:Host
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          RX packets:125787 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          TX packets:125787 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1 
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          RX bytes:8813683 (8.8 MB)  TX bytes:8813683 (8.8 MB)
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:service0  Link encap:Ethernet  HWaddr 70:71:b3:00:06:0b  
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:60b/64 Scope:Link
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          RX packets:75704 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          TX packets:226183 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          RX bytes:6219429 (6.2 MB)  TX bytes:167547756 (167.5 MB)
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          Memory:df300000-df31ffff 
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:service0:0 Link encap:Ethernet  HWaddr 70:71:b3:00:06:0b  
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          inet addr:192.168.100.1  Bcast:192.168.100.255  Mask:255.255.255.0
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          Memory:df300000-df31ffff 
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:service1  Link encap:Ethernet  HWaddr 00:30:64:1e:84:ad  
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::230:64ff:fe1e:84ad/64 Scope:Link
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          RX packets:978 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          TX packets:523 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          RX bytes:105821 (105.8 KB)  TX bytes:178870 (178.8 KB)
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          Interrupt:16 Memory:df400000-df420000 
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:switch    Link encap:Ethernet  HWaddr 70:71:b3:00:06:0c  
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          inet addr:192.168.3.1  Bcast:192.168.3.255  Mask:255.255.255.0
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:60c/64 Scope:Link
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          RX packets:6360 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          TX packets:5130 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          RX bytes:631908 (631.9 KB)  TX bytes:493976 (493.9 KB)
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:          Memory:df260000-df27ffff 
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_15_14,INFO,bcm_interface:104:_run APP:PASS 0
+2018_11_27_22_15_14,INFO,bcm_interface:908:run PASS 1
+2018_11_27_22_15_14,INFO,test_point:144:execute RIGHT_IFM_1, EXEC: True, VALUE: 1, PASSED: True
+2018_11_27_22_15_14,INFO,logging_setup:81:stream_capture <tests.bcm_misc.DUTEthVerify object at 0x0000000004754D30>
+2018_11_27_22_15_14,INFO,logging_setup:81:stream_capture completed in 1.201 secs
+2018_11_27_22_15_14,DEBUG,bcm_interface:57:__init__ Connect: IP:192.168.100.1
+2018_11_27_22_15_14,INFO,bcm_interface:873:run Connected...
+2018_11_27_22_15_14,DEBUG,bcm_interface:85:_run Cmd:/opt/shining_software/catkin_ws/src/lowsheen/src/production/ifconfig_iperf.py
+2018_11_27_22_15_14,DEBUG,bcm_interface:86:_run Args: 
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:ifm_center Link encap:Ethernet  HWaddr 70:71:b3:00:06:08  
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          inet addr:192.168.0.1  Bcast:192.168.0.255  Mask:255.255.255.0
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:608/64 Scope:Link
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          RX packets:871 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          TX packets:63 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          RX bytes:90432 (90.4 KB)  TX bytes:3622 (3.6 KB)
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          Memory:df360000-df37ffff 
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:ifm_left  Link encap:Ethernet  HWaddr 70:71:b3:00:06:0a  
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          inet addr:192.168.1.1  Bcast:192.168.1.255  Mask:255.255.255.0
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:60a/64 Scope:Link
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          RX packets:814 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          TX packets:63 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          RX bytes:81494 (81.4 KB)  TX bytes:3622 (3.6 KB)
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          Memory:df320000-df33ffff 
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:ifm_right Link encap:Ethernet  HWaddr 70:71:b3:00:06:09  
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          inet addr:192.168.2.1  Bcast:192.168.2.255  Mask:255.255.255.0
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:609/64 Scope:Link
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          RX packets:879 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          TX packets:63 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          RX bytes:91017 (91.0 KB)  TX bytes:3622 (3.6 KB)
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          Memory:df340000-df35ffff 
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:lo        Link encap:Local Loopback  
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          inet addr:127.0.0.1  Mask:255.0.0.0
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          inet6 addr: ::1/128 Scope:Host
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          RX packets:125787 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          TX packets:125787 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1 
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          RX bytes:8813683 (8.8 MB)  TX bytes:8813683 (8.8 MB)
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:service0  Link encap:Ethernet  HWaddr 70:71:b3:00:06:0b  
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:60b/64 Scope:Link
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          RX packets:75725 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          TX packets:226209 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          RX bytes:6221951 (6.2 MB)  TX bytes:167555339 (167.5 MB)
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          Memory:df300000-df31ffff 
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:service0:0 Link encap:Ethernet  HWaddr 70:71:b3:00:06:0b  
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          inet addr:192.168.100.1  Bcast:192.168.100.255  Mask:255.255.255.0
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          Memory:df300000-df31ffff 
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:service1  Link encap:Ethernet  HWaddr 00:30:64:1e:84:ad  
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::230:64ff:fe1e:84ad/64 Scope:Link
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          RX packets:978 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          TX packets:523 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          RX bytes:105821 (105.8 KB)  TX bytes:178870 (178.8 KB)
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          Interrupt:16 Memory:df400000-df420000 
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:switch    Link encap:Ethernet  HWaddr 70:71:b3:00:06:0c  
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          inet addr:192.168.3.1  Bcast:192.168.3.255  Mask:255.255.255.0
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:60c/64 Scope:Link
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          RX packets:6360 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          TX packets:5130 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          RX bytes:631908 (631.9 KB)  TX bytes:493976 (493.9 KB)
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:          Memory:df260000-df27ffff 
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_15_15,INFO,bcm_interface:104:_run APP:PASS 0
+2018_11_27_22_15_15,INFO,bcm_interface:908:run PASS 1
+2018_11_27_22_15_15,INFO,test_point:144:execute LEFT_IFM_1, EXEC: True, VALUE: 1, PASSED: True
+2018_11_27_22_15_15,INFO,logging_setup:81:stream_capture <tests.bcm_misc.DUTEthVerify object at 0x0000000004754D68>
+2018_11_27_22_15_15,INFO,logging_setup:81:stream_capture completed in 1.255 secs
+2018_11_27_22_15_15,DEBUG,bcm_interface:57:__init__ Connect: IP:192.168.100.1
+2018_11_27_22_15_16,INFO,bcm_interface:873:run Connected...
+2018_11_27_22_15_16,DEBUG,bcm_interface:85:_run Cmd:/opt/shining_software/catkin_ws/src/lowsheen/src/production/ifconfig_iperf.py
+2018_11_27_22_15_16,DEBUG,bcm_interface:86:_run Args: 
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:ifm_center Link encap:Ethernet  HWaddr 70:71:b3:00:06:08  
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          inet addr:192.168.0.1  Bcast:192.168.0.255  Mask:255.255.255.0
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:608/64 Scope:Link
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          RX packets:871 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          TX packets:63 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          RX bytes:90432 (90.4 KB)  TX bytes:3622 (3.6 KB)
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          Memory:df360000-df37ffff 
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:ifm_left  Link encap:Ethernet  HWaddr 70:71:b3:00:06:0a  
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          inet addr:192.168.1.1  Bcast:192.168.1.255  Mask:255.255.255.0
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:60a/64 Scope:Link
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          RX packets:814 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          TX packets:63 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          RX bytes:81494 (81.4 KB)  TX bytes:3622 (3.6 KB)
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          Memory:df320000-df33ffff 
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:ifm_right Link encap:Ethernet  HWaddr 70:71:b3:00:06:09  
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          inet addr:192.168.2.1  Bcast:192.168.2.255  Mask:255.255.255.0
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:609/64 Scope:Link
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          RX packets:879 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          TX packets:63 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          RX bytes:91017 (91.0 KB)  TX bytes:3622 (3.6 KB)
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          Memory:df340000-df35ffff 
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:lo        Link encap:Local Loopback  
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          inet addr:127.0.0.1  Mask:255.0.0.0
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          inet6 addr: ::1/128 Scope:Host
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          RX packets:125791 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          TX packets:125791 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1 
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          RX bytes:8813899 (8.8 MB)  TX bytes:8813899 (8.8 MB)
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:service0  Link encap:Ethernet  HWaddr 70:71:b3:00:06:0b  
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:60b/64 Scope:Link
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          RX packets:75744 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          TX packets:226231 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          RX bytes:6224325 (6.2 MB)  TX bytes:167562694 (167.5 MB)
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          Memory:df300000-df31ffff 
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:service0:0 Link encap:Ethernet  HWaddr 70:71:b3:00:06:0b  
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          inet addr:192.168.100.1  Bcast:192.168.100.255  Mask:255.255.255.0
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          Memory:df300000-df31ffff 
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:service1  Link encap:Ethernet  HWaddr 00:30:64:1e:84:ad  
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::230:64ff:fe1e:84ad/64 Scope:Link
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          RX packets:978 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          TX packets:523 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          RX bytes:105821 (105.8 KB)  TX bytes:178870 (178.8 KB)
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          Interrupt:16 Memory:df400000-df420000 
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:switch    Link encap:Ethernet  HWaddr 70:71:b3:00:06:0c  
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          inet addr:192.168.3.1  Bcast:192.168.3.255  Mask:255.255.255.0
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          inet6 addr: fe80::7271:b3ff:fe00:60c/64 Scope:Link
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          RX packets:6360 errors:0 dropped:0 overruns:0 frame:0
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          TX packets:5130 errors:0 dropped:0 overruns:0 carrier:0
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          collisions:0 txqueuelen:1000 
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          RX bytes:631908 (631.9 KB)  TX bytes:493976 (493.9 KB)
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:          Memory:df260000-df27ffff 
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:
+2018_11_27_22_15_17,INFO,bcm_interface:104:_run APP:PASS 0
+2018_11_27_22_15_17,INFO,bcm_interface:908:run PASS 1
+2018_11_27_22_15_17,INFO,test_point:144:execute SERVICE_1, EXEC: True, VALUE: 1, PASSED: True
+2018_11_27_22_15_17,INFO,logging_setup:81:stream_capture <tests.bcm_misc.DUTEthVerify object at 0x0000000004754DA0>
+2018_11_27_22_15_17,INFO,logging_setup:81:stream_capture completed in 1.208 secs
+2018_11_27_22_15_17,INFO,test_point:144:execute FRONT_IFM_2, EXEC: True, VALUE: 1, PASSED: True
+2018_11_27_22_15_17,INFO,logging_setup:81:stream_capture <tests.bcm_misc.DUTEthPing object at 0x0000000004754DD8>
+2018_11_27_22_15_17,INFO,logging_setup:81:stream_capture completed in 0.011 secs
+2018_11_27_22_15_17,INFO,test_point:144:execute RIGHT_IFM_2, EXEC: True, VALUE: 1, PASSED: True
+2018_11_27_22_15_17,INFO,logging_setup:81:stream_capture <tests.bcm_misc.DUTEthPing object at 0x0000000004754E10>
+2018_11_27_22_15_17,INFO,logging_setup:81:stream_capture completed in 0.012 secs
+2018_11_27_22_15_17,INFO,test_point:144:execute LEFT_IFM_2, EXEC: True, VALUE: 1, PASSED: True
+2018_11_27_22_15_17,INFO,logging_setup:81:stream_capture <tests.bcm_misc.DUTEthPing object at 0x0000000004754E48>
+2018_11_27_22_15_17,INFO,logging_setup:81:stream_capture completed in 0.012 secs
+2018_11_27_22_15_17,INFO,test_point:144:execute SWITCH_2, EXEC: True, VALUE: 1, PASSED: True
+2018_11_27_22_15_17,INFO,logging_setup:81:stream_capture <tests.bcm_misc.DUTEthPing object at 0x0000000004754E80>
+2018_11_27_22_15_17,INFO,logging_setup:81:stream_capture completed in 0.015 secs
+2018_11_27_22_15_17,INFO,test_point:144:execute SERVICE_2, EXEC: True, VALUE: 1, PASSED: True
+2018_11_27_22_15_17,INFO,logging_setup:81:stream_capture <tests.bcm_misc.DUTEthPing object at 0x0000000004754EB8>
+2018_11_27_22_15_17,INFO,logging_setup:81:stream_capture completed in 0.012 secs
+2018_11_27_22_15_17,INFO,logging_setup:81:stream_capture <tests.bcm_misc.DUTLidarPing object at 0x0000000004754EF0>
+2018_11_27_22_15_17,INFO,logging_setup:81:stream_capture completed in 0.000 secs
+2018_11_27_22_15_17,INFO,logging_setup:81:stream_capture Board type:115 testing complete...
+2018_11_27_22_15_17,INFO,logging_setup:81:stream_capture POWEROFF NOT REQUESTED, LEAVING DUT POWERED ON!!!
+2018_11_27_22_15_17,INFO,logging_setup:81:stream_capture WARN: Test Coverage 141/0, Test Cases/Tests run
+2018_11_27_22_15_17,INFO,logging_setup:81:stream_capture Test Failures 0
+2018_11_27_22_15_17,INFO,logging_setup:81:stream_capture Test duration:20sec
+2018_11_27_22_15_17,INFO,logging_setup:81:stream_capture Traceback (most recent call last):
+2018_11_27_22_15_17,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\BCM\BCM_test.py", line 106, in <module>
+2018_11_27_22_15_17,INFO,logging_setup:81:stream_capture testCount += measurement_tests(meas_assets)
+2018_11_27_22_15_17,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\BCM\control\measurement_tests.py", line 154, in measurement_tests
+2018_11_27_22_15_17,INFO,logging_setup:81:stream_capture meas.run()
+2018_11_27_22_15_17,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\polish\measurement\measurement.py", line 63, in run
+2018_11_27_22_15_17,INFO,logging_setup:81:stream_capture self.measure()
+2018_11_27_22_15_17,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\BCM\tests\bcm_misc.py", line 277, in measure
+2018_11_27_22_15_17,INFO,logging_setup:81:stream_capture result, value = LidarPing(self._meas_assets, self._dut_name, self.test_id).run()
+2018_11_27_22_15_17,INFO,logging_setup:81:stream_capture NameError
+2018_11_27_22_15_17,INFO,logging_setup:81:stream_capture : 
+2018_11_27_22_15_17,INFO,logging_setup:81:stream_capture global name 'LidarPing' is not defined

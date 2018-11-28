@@ -1,0 +1,29 @@
+2018_11_26_23_00_15,INFO,logging_setup:43:init_project_logger info
+2018_11_26_23_00_15,INFO,logging_setup:81:stream_capture *IDN?
+2018_11_26_23_00_15,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_26_23_00_15,INFO,logging_setup:81:stream_capture 0.0260000228882
+2018_11_26_23_00_15,INFO,logging_setup:81:stream_capture *IDN?
+2018_11_26_23_00_15,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_26_23_00_15,INFO,logging_setup:81:stream_capture 0.00399994850159
+2018_11_26_23_00_15,INFO,logging_setup:81:stream_capture *IDN?
+2018_11_26_23_00_15,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_26_23_00_15,INFO,logging_setup:81:stream_capture 0.0239999294281
+2018_11_26_23_00_15,INFO,logging_setup:81:stream_capture VOLT 24
+2018_11_26_23_00_15,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_26_23_00_15,INFO,logging_setup:81:stream_capture 0.00100016593933
+2018_11_26_23_00_15,INFO,logging_setup:81:stream_capture CURR 2.6
+2018_11_26_23_00_15,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_26_23_00_15,INFO,logging_setup:81:stream_capture 0.000999927520752
+2018_11_26_23_00_15,INFO,logging_setup:81:stream_capture SOUR:OUTP 1
+2018_11_26_23_00_15,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_26_23_00_15,INFO,logging_setup:81:stream_capture 0.000999927520752
+2018_11_26_23_00_15,INFO,logging_setup:81:stream_capture <control.bcm_power.DutPower object at 0x0000000004597710>
+2018_11_26_23_00_15,INFO,logging_setup:81:stream_capture completed in 0.005 secs
+2018_11_26_23_00_15,INFO,logging_setup:81:stream_capture SOUR:DIG:DATA:BYTE 2, (@202)
+2018_11_26_23_00_15,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_26_23_00_15,INFO,logging_setup:81:stream_capture 0.00399994850159
+2018_11_26_23_00_16,INFO,logging_setup:81:stream_capture <control.bcm_power.DutKeySenseOn object at 0x0000000002F58D30>
+2018_11_26_23_00_16,INFO,logging_setup:81:stream_capture completed in 1.006 secs
+2018_11_26_23_00_55,INFO,test_point:144:execute KEY_SENSE_1, EXEC: True, VALUE: 1, PASSED: True
+2018_11_26_23_00_55,INFO,logging_setup:81:stream_capture <tests.bcm_power_tests.DutKeySenseMeasurement object at 0x0000000002F58D30>
+2018_11_26_23_00_55,INFO,logging_setup:81:stream_capture completed in 38.704 secs

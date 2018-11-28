@@ -1,0 +1,68 @@
+2018_11_26_21_52_47,INFO,logging_setup:43:init_project_logger info
+2018_11_26_21_52_47,INFO,logging_setup:81:stream_capture *IDN?
+2018_11_26_21_52_47,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_26_21_52_47,INFO,logging_setup:81:stream_capture 0.0230000019073
+2018_11_26_21_52_47,INFO,logging_setup:81:stream_capture *IDN?
+2018_11_26_21_52_47,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_26_21_52_47,INFO,logging_setup:81:stream_capture 0.00399994850159
+2018_11_26_21_52_47,INFO,logging_setup:81:stream_capture *IDN?
+2018_11_26_21_52_47,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_26_21_52_47,INFO,logging_setup:81:stream_capture 0.0250000953674
+2018_11_26_21_52_47,INFO,logging_setup:81:stream_capture Begin Testing Board type:115...
+2018_11_26_21_52_47,INFO,logging_setup:81:stream_capture VOLT 36
+2018_11_26_21_52_47,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_26_21_52_47,INFO,logging_setup:81:stream_capture 0.000999927520752
+2018_11_26_21_52_47,INFO,logging_setup:81:stream_capture CURR 2.6
+2018_11_26_21_52_47,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_26_21_52_47,INFO,logging_setup:81:stream_capture 0.000999927520752
+2018_11_26_21_52_47,INFO,logging_setup:81:stream_capture SOUR:OUTP 1
+2018_11_26_21_52_47,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_26_21_52_47,INFO,logging_setup:81:stream_capture 0.000999927520752
+2018_11_26_21_52_47,INFO,logging_setup:81:stream_capture <control.bcm_power.DutPower object at 0x0000000003E8E588>
+2018_11_26_21_52_47,INFO,logging_setup:81:stream_capture completed in 0.005 secs
+2018_11_26_21_52_47,INFO,logging_setup:81:stream_capture SOUR:DIG:DATA:BYTE 2, (@202)
+2018_11_26_21_52_47,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_26_21_52_47,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_26_21_52_48,INFO,logging_setup:81:stream_capture <control.bcm_power.DutKeySenseOn object at 0x0000000002868D30>
+2018_11_26_21_52_48,INFO,logging_setup:81:stream_capture completed in 1.008 secs
+2018_11_26_21_52_48,INFO,logging_setup:81:stream_capture Guy: Reply from 192.168.137.178: bytes=32 time
+2018_11_26_21_52_48,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_52_48,INFO,test_point:144:execute KEY_SENSE_1, EXEC: True, VALUE: 1, PASSED: True
+2018_11_26_21_52_48,INFO,logging_setup:81:stream_capture <tests.bcm_power_tests.DutKeySenseMeasurement object at 0x0000000002868D30>
+2018_11_26_21_52_48,INFO,logging_setup:81:stream_capture completed in 0.013 secs
+2018_11_26_21_52_48,INFO,logging_setup:81:stream_capture MEAS:CURR?
+2018_11_26_21_52_48,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_26_21_52_48,INFO,logging_setup:81:stream_capture 0.00699996948242
+2018_11_26_21_52_48,INFO,test_point:144:execute DUT_CURRENT_2, EXEC: True, VALUE: 0.7976, PASSED: False
+2018_11_26_21_52_48,INFO,logging_setup:81:stream_capture <tests.bcm_power_tests.DutCurrentMeasurement object at 0x0000000002868D30>
+2018_11_26_21_52_48,INFO,logging_setup:81:stream_capture completed in 0.009 secs
+2018_11_26_21_52_48,INFO,logging_setup:81:stream_capture Board type:115 testing complete...
+2018_11_26_21_52_48,INFO,logging_setup:81:stream_capture POWEROFF NOT REQUESTED, LEAVING DUT POWERED ON!!!
+2018_11_26_21_52_48,INFO,logging_setup:81:stream_capture WARN: Test Coverage 141/1, Test Cases/Tests run
+2018_11_26_21_52_48,INFO,logging_setup:81:stream_capture Test Failures 1
+2018_11_26_21_52_48,INFO,logging_setup:81:stream_capture Test duration:1sec
+2018_11_26_21_52_48,INFO,logging_setup:81:stream_capture Traceback (most recent call last):
+2018_11_26_21_52_48,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\BCM\BCM_test.py", line 86, in <module>
+2018_11_26_21_52_48,INFO,logging_setup:81:stream_capture testCount += test_36v_load(meas_assets)
+2018_11_26_21_52_48,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\BCM\control\load_tests.py", line 121, in test_36v_load
+2018_11_26_21_52_48,INFO,logging_setup:81:stream_capture meas.run()
+2018_11_26_21_52_48,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\polish\measurement\measurement.py", line 63, in run
+2018_11_26_21_52_48,INFO,logging_setup:81:stream_capture self.measure()
+2018_11_26_21_52_48,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\BCM\tests\bcm_power_tests.py", line 36, in measure
+2018_11_26_21_52_48,INFO,logging_setup:81:stream_capture self.test_points[self.test_point_name].execute(curr)
+2018_11_26_21_52_48,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\polish\test_point\test_point.py", line 132, in execute
+2018_11_26_21_52_48,INFO,logging_setup:81:stream_capture pass_fail = self._execute(value, raiseOnFail)
+2018_11_26_21_52_48,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\polish\test_point\test_point.py", line 164, in _execute
+2018_11_26_21_52_48,INFO,logging_setup:81:stream_capture raise TestPointLowerLimitFailure('%s lower limit failed %r lower than %r' % (self.unique_id, value, self.lower_limit))
+2018_11_26_21_52_48,INFO,logging_setup:81:stream_capture polish.test_point.test_point
+2018_11_26_21_52_48,INFO,logging_setup:81:stream_capture .
+2018_11_26_21_52_48,INFO,logging_setup:81:stream_capture TestPointLowerLimitFailure
+2018_11_26_21_52_48,INFO,logging_setup:81:stream_capture : 
+2018_11_26_21_52_48,INFO,logging_setup:81:stream_capture DUT_CURRENT_2 lower limit failed 0.7976 lower than 0.8

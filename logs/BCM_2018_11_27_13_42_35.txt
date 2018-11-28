@@ -1,0 +1,57 @@
+2018_11_27_21_42_35,INFO,logging_setup:43:init_project_logger info
+2018_11_27_21_42_35,INFO,logging_setup:81:stream_capture *IDN?
+2018_11_27_21_42_36,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_21_42_36,INFO,logging_setup:81:stream_capture 0.0240001678467
+2018_11_27_21_42_36,INFO,logging_setup:81:stream_capture *IDN?
+2018_11_27_21_42_36,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_21_42_36,INFO,logging_setup:81:stream_capture 0.00400018692017
+2018_11_27_21_42_36,INFO,logging_setup:81:stream_capture *IDN?
+2018_11_27_21_42_36,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_27_21_42_36,INFO,logging_setup:81:stream_capture 0.0230000019073
+2018_11_27_21_42_36,INFO,logging_setup:81:stream_capture Begin Testing Board type:115...
+2018_11_27_21_42_36,INFO,logging_setup:81:stream_capture VOLT 36
+2018_11_27_21_42_36,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_21_42_36,INFO,logging_setup:81:stream_capture 0.00100016593933
+2018_11_27_21_42_36,INFO,logging_setup:81:stream_capture CURR 2.6
+2018_11_27_21_42_36,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_21_42_36,INFO,logging_setup:81:stream_capture 0.000999927520752
+2018_11_27_21_42_36,INFO,logging_setup:81:stream_capture SOUR:OUTP 1
+2018_11_27_21_42_36,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_21_42_36,INFO,logging_setup:81:stream_capture 0.00100016593933
+2018_11_27_21_42_36,INFO,logging_setup:81:stream_capture <control.bcm_power.DutPower object at 0x0000000004D52780>
+2018_11_27_21_42_36,INFO,logging_setup:81:stream_capture completed in 0.004 secs
+2018_11_27_21_42_36,INFO,logging_setup:81:stream_capture SOUR:DIG:DATA:BYTE 2, (@202)
+2018_11_27_21_42_36,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_21_42_36,INFO,logging_setup:81:stream_capture 0.00399994850159
+2018_11_27_21_42_37,INFO,logging_setup:81:stream_capture <control.bcm_power.DutKeySenseOn object at 0x0000000003718D30>
+2018_11_27_21_42_37,INFO,logging_setup:81:stream_capture completed in 1.006 secs
+2018_11_27_21_42_37,INFO,logging_setup:81:stream_capture VOLT 24
+2018_11_27_21_42_37,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_21_42_37,INFO,logging_setup:81:stream_capture 0.000999927520752
+2018_11_27_21_42_37,INFO,logging_setup:81:stream_capture CURR 2.6
+2018_11_27_21_42_37,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_21_42_37,INFO,logging_setup:81:stream_capture 0.00100016593933
+2018_11_27_21_42_37,INFO,logging_setup:81:stream_capture SOUR:OUTP 1
+2018_11_27_21_42_37,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_27_21_42_37,INFO,logging_setup:81:stream_capture 0.000999927520752
+2018_11_27_21_42_37,INFO,logging_setup:81:stream_capture <control.bcm_power.DutPower object at 0x0000000003718D30>
+2018_11_27_21_42_37,INFO,logging_setup:81:stream_capture completed in 0.004 secs
+2018_11_27_21_42_37,INFO,logging_setup:81:stream_capture Board type:115 testing complete...
+2018_11_27_21_42_37,INFO,logging_setup:81:stream_capture POWEROFF NOT REQUESTED, LEAVING DUT POWERED ON!!!
+2018_11_27_21_42_37,INFO,logging_setup:81:stream_capture WARN: Test Coverage 141/0, Test Cases/Tests run
+2018_11_27_21_42_37,INFO,logging_setup:81:stream_capture Test Failures 0
+2018_11_27_21_42_37,INFO,logging_setup:81:stream_capture Test duration:1sec
+2018_11_27_21_42_37,INFO,logging_setup:81:stream_capture Traceback (most recent call last):
+2018_11_27_21_42_37,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\BCM\BCM_test.py", line 106, in <module>
+2018_11_27_21_42_37,INFO,logging_setup:81:stream_capture testCount += measurement_tests(meas_assets)
+2018_11_27_21_42_37,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\BCM\control\measurement_tests.py", line 62, in measurement_tests
+2018_11_27_21_42_37,INFO,logging_setup:81:stream_capture DUTLidarPing(meas_assets, 'DUT1', 'PL_LIDAR_1'),
+2018_11_27_21_42_37,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\BCM\tests\bcm_misc.py", line 269, in __init__
+2018_11_27_21_42_37,INFO,logging_setup:81:stream_capture super(DUTLidarPing, self).__init__(meas_assets)
+2018_11_27_21_42_37,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\polish\measurement\measurement.py", line 50, in __init__
+2018_11_27_21_42_37,INFO,logging_setup:81:stream_capture test_point = test_point_map[uid]
+2018_11_27_21_42_37,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\polish\test_point\test_point_map.py", line 23, in __getitem__
+2018_11_27_21_42_37,INFO,logging_setup:81:stream_capture return self._map[unique_id]
+2018_11_27_21_42_37,INFO,logging_setup:81:stream_capture KeyError
+2018_11_27_21_42_37,INFO,logging_setup:81:stream_capture : 
+2018_11_27_21_42_37,INFO,logging_setup:81:stream_capture 'PL_LIDAR_1'

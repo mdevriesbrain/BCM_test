@@ -1,0 +1,70 @@
+2018_11_26_22_43_15,INFO,logging_setup:43:init_project_logger info
+2018_11_26_22_43_15,INFO,logging_setup:81:stream_capture *IDN?
+2018_11_26_22_43_16,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_26_22_43_16,INFO,logging_setup:81:stream_capture 0.0239999294281
+2018_11_26_22_43_16,INFO,logging_setup:81:stream_capture *IDN?
+2018_11_26_22_43_16,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_26_22_43_16,INFO,logging_setup:81:stream_capture 0.00399994850159
+2018_11_26_22_43_16,INFO,logging_setup:81:stream_capture *IDN?
+2018_11_26_22_43_16,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_26_22_43_16,INFO,logging_setup:81:stream_capture 0.0230000019073
+2018_11_26_22_43_16,INFO,logging_setup:81:stream_capture Begin Testing Board type:115...
+2018_11_26_22_43_16,INFO,logging_setup:81:stream_capture VOLT 36
+2018_11_26_22_43_16,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_26_22_43_16,INFO,logging_setup:81:stream_capture 0.000999927520752
+2018_11_26_22_43_16,INFO,logging_setup:81:stream_capture CURR 2.6
+2018_11_26_22_43_16,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_26_22_43_16,INFO,logging_setup:81:stream_capture 0.00100016593933
+2018_11_26_22_43_16,INFO,logging_setup:81:stream_capture SOUR:OUTP 1
+2018_11_26_22_43_16,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_26_22_43_16,INFO,logging_setup:81:stream_capture 0.000999927520752
+2018_11_26_22_43_16,INFO,logging_setup:81:stream_capture <control.bcm_power.DutPower object at 0x00000000045085C0>
+2018_11_26_22_43_16,INFO,logging_setup:81:stream_capture completed in 0.004 secs
+2018_11_26_22_43_16,INFO,logging_setup:81:stream_capture SOUR:DIG:DATA:BYTE 2, (@202)
+2018_11_26_22_43_16,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_26_22_43_16,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture <control.bcm_power.DutKeySenseOn object at 0x0000000002EB8D30>
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture completed in 1.005 secs
+2018_11_26_22_43_17,INFO,test_point:144:execute KEY_SENSE_1, EXEC: True, VALUE: 1, PASSED: True
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture <tests.bcm_power_tests.DutKeySenseMeasurement object at 0x0000000002EB8D30>
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture completed in 0.014 secs
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture VOLT 24
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture 0.000999927520752
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture CURR 2.6
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture 0.000999927520752
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture SOUR:OUTP 1
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture 0.00200009346008
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture <control.bcm_power.DutPower object at 0x0000000002EB8D30>
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture completed in 0.008 secs
+2018_11_26_22_43_17,INFO,test_point:144:execute KEY_SENSE_2, EXEC: True, VALUE: 1, PASSED: True
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture <tests.bcm_power_tests.DutKeySenseMeasurement object at 0x0000000002EB8D30>
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture completed in 0.012 secs
+2018_11_26_22_43_17,INFO,test_point:144:execute SWITCH_1, EXEC: True, VALUE: 0, PASSED: False
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture <tests.bcm_misc.DUTEthPing object at 0x00000000045085C0>
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture completed in 0.013 secs
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture Board type:115 testing complete...
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture POWEROFF NOT REQUESTED, LEAVING DUT POWERED ON!!!
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture WARN: Test Coverage 141/1, Test Cases/Tests run
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture Test Failures 1
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture Test duration:1sec
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture Traceback (most recent call last):
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\BCM\BCM_test.py", line 103, in <module>
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture testCount += measurement_tests(meas_assets)
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\BCM\control\measurement_tests.py", line 152, in measurement_tests
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture meas.run()
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\polish\measurement\measurement.py", line 63, in run
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture self.measure()
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\BCM\tests\bcm_misc.py", line 229, in measure
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture self.test_points[self.test_point_name].execute(int(self.result), raiseOnFail=True)
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\polish\test_point\test_point.py", line 132, in execute
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture pass_fail = self._execute(value, raiseOnFail)
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\polish\test_point\test_point.py", line 159, in _execute
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture raise TestPointEqualityLimitFailure('%s equality limit failed %r does not equal %r' % (self.unique_id, value, self.equality_limit))
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture polish.test_point.test_point
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture .
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture TestPointEqualityLimitFailure
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture : 
+2018_11_26_22_43_17,INFO,logging_setup:81:stream_capture SWITCH_1 equality limit failed 0 does not equal 1

@@ -1,0 +1,32 @@
+2018_11_26_23_34_19,INFO,logging_setup:43:init_project_logger info
+2018_11_26_23_34_20,INFO,logging_setup:81:stream_capture *IDN?
+2018_11_26_23_34_20,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_26_23_34_20,INFO,logging_setup:81:stream_capture 0.0239999294281
+2018_11_26_23_34_20,INFO,logging_setup:81:stream_capture *IDN?
+2018_11_26_23_34_20,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_26_23_34_20,INFO,logging_setup:81:stream_capture 0.00400018692017
+2018_11_26_23_34_20,INFO,logging_setup:81:stream_capture *IDN?
+2018_11_26_23_34_20,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_26_23_34_20,INFO,logging_setup:81:stream_capture 0.0239999294281
+2018_11_26_23_34_20,INFO,logging_setup:81:stream_capture SOUR:DIG:DATA:BYTE 0, (@202)
+2018_11_26_23_34_20,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_26_23_34_20,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_26_23_34_20,INFO,logging_setup:81:stream_capture MEAS:CURR?
+2018_11_26_23_34_20,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_26_23_34_20,INFO,logging_setup:81:stream_capture 0.00699996948242
+2018_11_26_23_34_30,INFO,logging_setup:81:stream_capture MEAS:CURR?
+2018_11_26_23_34_30,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_26_23_34_30,INFO,logging_setup:81:stream_capture 0.0620000362396
+2018_11_26_23_34_30,INFO,logging_setup:81:stream_capture <control.bcm_power.DutKeySenseOff object at 0x00000000043DF710>
+2018_11_26_23_34_30,INFO,logging_setup:81:stream_capture completed in 10.163 secs
+2018_11_26_23_34_30,INFO,logging_setup:81:stream_capture SOUR:OUTP 0
+2018_11_26_23_34_30,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_26_23_34_30,INFO,logging_setup:81:stream_capture 0.0090000629425
+2018_11_26_23_34_30,INFO,logging_setup:81:stream_capture VOLT 0
+2018_11_26_23_34_30,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_26_23_34_30,INFO,logging_setup:81:stream_capture 0.0340001583099
+2018_11_26_23_34_30,INFO,logging_setup:81:stream_capture CURR 0
+2018_11_26_23_34_30,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_26_23_34_30,INFO,logging_setup:81:stream_capture 0.0220000743866
+2018_11_26_23_34_30,INFO,logging_setup:81:stream_capture <control.bcm_power.DutPower object at 0x0000000002DE8D30>
+2018_11_26_23_34_30,INFO,logging_setup:81:stream_capture completed in 0.157 secs

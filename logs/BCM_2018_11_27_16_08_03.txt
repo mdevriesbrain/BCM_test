@@ -1,0 +1,519 @@
+2018_11_28_00_08_03,INFO,logging_setup:43:init_project_logger info
+2018_11_28_00_08_03,INFO,logging_setup:81:stream_capture *IDN?
+2018_11_28_00_08_04,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_04,INFO,logging_setup:81:stream_capture 0.0230000019073
+2018_11_28_00_08_04,INFO,logging_setup:81:stream_capture *IDN?
+2018_11_28_00_08_04,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_04,INFO,logging_setup:81:stream_capture 0.00399994850159
+2018_11_28_00_08_04,INFO,logging_setup:81:stream_capture *IDN?
+2018_11_28_00_08_04,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_04,INFO,logging_setup:81:stream_capture 0.0239999294281
+2018_11_28_00_08_04,INFO,logging_setup:81:stream_capture Begin Testing Board type:115...
+2018_11_28_00_08_04,INFO,logging_setup:81:stream_capture VOLT 36
+2018_11_28_00_08_04,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_04,INFO,logging_setup:81:stream_capture 0.00100016593933
+2018_11_28_00_08_04,INFO,logging_setup:81:stream_capture CURR 2.6
+2018_11_28_00_08_04,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_04,INFO,logging_setup:81:stream_capture 0.000999927520752
+2018_11_28_00_08_04,INFO,logging_setup:81:stream_capture SOUR:OUTP 1
+2018_11_28_00_08_04,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_04,INFO,logging_setup:81:stream_capture 0.00100016593933
+2018_11_28_00_08_04,INFO,logging_setup:81:stream_capture <control.bcm_power.DutPower object at 0x0000000004C1A828>
+2018_11_28_00_08_04,INFO,logging_setup:81:stream_capture completed in 0.005 secs
+2018_11_28_00_08_04,INFO,logging_setup:81:stream_capture SOUR:DIG:DATA:BYTE 2, (@202)
+2018_11_28_00_08_04,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_04,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_28_00_08_05,INFO,logging_setup:81:stream_capture <control.bcm_power.DutKeySenseOn object at 0x00000000035C8D30>
+2018_11_28_00_08_05,INFO,logging_setup:81:stream_capture completed in 1.004 secs
+2018_11_28_00_08_05,INFO,test_point:144:execute KEY_SENSE_1, EXEC: True, VALUE: 1, PASSED: True
+2018_11_28_00_08_05,INFO,logging_setup:81:stream_capture <tests.bcm_power_tests.DutKeySenseMeasurement object at 0x00000000035C8D30>
+2018_11_28_00_08_05,INFO,logging_setup:81:stream_capture completed in 0.018 secs
+2018_11_28_00_08_05,INFO,logging_setup:81:stream_capture MEAS:CURR?
+2018_11_28_00_08_05,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_05,INFO,logging_setup:81:stream_capture 0.00699996948242
+2018_11_28_00_08_05,INFO,test_point:144:execute DUT_CURRENT_2, EXEC: True, VALUE: 1.127, PASSED: True
+2018_11_28_00_08_06,INFO,logging_setup:81:stream_capture <tests.bcm_power_tests.DutCurrentMeasurement object at 0x00000000035C8D30>
+2018_11_28_00_08_06,INFO,logging_setup:81:stream_capture completed in 1.011 secs
+2018_11_28_00_08_06,INFO,logging_setup:81:stream_capture MEAS:VOLT?
+2018_11_28_00_08_06,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_06,INFO,logging_setup:81:stream_capture 0.00699996948242
+2018_11_28_00_08_06,INFO,test_point:144:execute DUT_VOLTAGE_2, EXEC: True, VALUE: 35.996, PASSED: True
+2018_11_28_00_08_07,INFO,logging_setup:81:stream_capture <tests.bcm_power_tests.DutVoltageMeasurement object at 0x0000000004C1A828>
+2018_11_28_00_08_07,INFO,logging_setup:81:stream_capture completed in 1.010 secs
+2018_11_28_00_08_07,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 101"
+2018_11_28_00_08_07,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_07,INFO,logging_setup:81:stream_capture 0.00299978256226
+2018_11_28_00_08_07,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@101)
+2018_11_28_00_08_07,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_07,INFO,logging_setup:81:stream_capture 0.148000001907
+2018_11_28_00_08_07,INFO,test_point:144:execute P5VG_2, EXEC: True, VALUE: 5.000529, PASSED: True
+2018_11_28_00_08_08,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1A908>
+2018_11_28_00_08_08,INFO,logging_setup:81:stream_capture completed in 1.156 secs
+2018_11_28_00_08_08,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 102"
+2018_11_28_00_08_08,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_08,INFO,logging_setup:81:stream_capture 0.00299978256226
+2018_11_28_00_08_08,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@102)
+2018_11_28_00_08_08,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_08,INFO,logging_setup:81:stream_capture 0.125
+2018_11_28_00_08_08,INFO,test_point:144:execute STEERING_P5VH_2, EXEC: True, VALUE: 5.0004529, PASSED: True
+2018_11_28_00_08_09,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1A8D0>
+2018_11_28_00_08_09,INFO,logging_setup:81:stream_capture completed in 1.132 secs
+2018_11_28_00_08_09,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 103"
+2018_11_28_00_08_09,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_09,INFO,logging_setup:81:stream_capture 0.00200009346008
+2018_11_28_00_08_09,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@103)
+2018_11_28_00_08_09,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_09,INFO,logging_setup:81:stream_capture 0.125999927521
+2018_11_28_00_08_09,INFO,test_point:144:execute ABSOLUTE_ENCODER_P5VI_2, EXEC: True, VALUE: 5.0004529, PASSED: True
+2018_11_28_00_08_10,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1A940>
+2018_11_28_00_08_10,INFO,logging_setup:81:stream_capture completed in 1.130 secs
+2018_11_28_00_08_10,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 104"
+2018_11_28_00_08_10,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_10,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_28_00_08_10,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@104)
+2018_11_28_00_08_10,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_10,INFO,logging_setup:81:stream_capture 0.12700009346
+2018_11_28_00_08_10,INFO,test_point:144:execute TRACTION_ENCODER_P5VJ_2, EXEC: True, VALUE: 5.0004783, PASSED: True
+2018_11_28_00_08_11,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1A860>
+2018_11_28_00_08_11,INFO,logging_setup:81:stream_capture completed in 1.133 secs
+2018_11_28_00_08_11,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 105"
+2018_11_28_00_08_11,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_11,INFO,logging_setup:81:stream_capture 0.00299978256226
+2018_11_28_00_08_11,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@105)
+2018_11_28_00_08_11,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_11,INFO,logging_setup:81:stream_capture 0.125999927521
+2018_11_28_00_08_11,INFO,test_point:144:execute P5VK_2, EXEC: True, VALUE: 5.0005798, PASSED: True
+2018_11_28_00_08_12,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1A588>
+2018_11_28_00_08_12,INFO,logging_setup:81:stream_capture completed in 1.133 secs
+2018_11_28_00_08_12,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 107"
+2018_11_28_00_08_12,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_12,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_28_00_08_12,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@107)
+2018_11_28_00_08_12,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_12,INFO,logging_setup:81:stream_capture 0.129999876022
+2018_11_28_00_08_12,INFO,test_point:144:execute EXT_LTE_MODEM__USB_5V_1A_2, EXEC: True, VALUE: 4.9539651, PASSED: True
+2018_11_28_00_08_13,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1A898>
+2018_11_28_00_08_13,INFO,logging_setup:81:stream_capture completed in 1.136 secs
+2018_11_28_00_08_13,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 108"
+2018_11_28_00_08_13,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_13,INFO,logging_setup:81:stream_capture 0.00299978256226
+2018_11_28_00_08_13,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@108)
+2018_11_28_00_08_14,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_14,INFO,logging_setup:81:stream_capture 0.12700009346
+2018_11_28_00_08_14,INFO,test_point:144:execute USB_5V_1B_2, EXEC: True, VALUE: 4.9550191, PASSED: True
+2018_11_28_00_08_15,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1A978>
+2018_11_28_00_08_15,INFO,logging_setup:81:stream_capture completed in 1.131 secs
+2018_11_28_00_08_15,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 201"
+2018_11_28_00_08_15,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_15,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_28_00_08_15,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@201)
+2018_11_28_00_08_15,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_15,INFO,logging_setup:81:stream_capture 0.131999969482
+2018_11_28_00_08_15,INFO,test_point:144:execute FAN_P12VA_2, EXEC: True, VALUE: 11.940871, PASSED: True
+2018_11_28_00_08_16,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1A9B0>
+2018_11_28_00_08_16,INFO,logging_setup:81:stream_capture completed in 1.137 secs
+2018_11_28_00_08_16,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 202"
+2018_11_28_00_08_16,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_16,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_28_00_08_16,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@202)
+2018_11_28_00_08_16,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_16,INFO,logging_setup:81:stream_capture 0.125
+2018_11_28_00_08_16,INFO,test_point:144:execute SLANTED_LIDAR_P12VB_2, EXEC: True, VALUE: 11.940833, PASSED: True
+2018_11_28_00_08_17,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1A9E8>
+2018_11_28_00_08_17,INFO,logging_setup:81:stream_capture completed in 1.131 secs
+2018_11_28_00_08_17,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 203"
+2018_11_28_00_08_17,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_17,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_28_00_08_17,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@203)
+2018_11_28_00_08_17,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_17,INFO,logging_setup:81:stream_capture 0.126000165939
+2018_11_28_00_08_17,INFO,test_point:144:execute P12VC_2, EXEC: True, VALUE: 11.942458, PASSED: True
+2018_11_28_00_08_18,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1AA20>
+2018_11_28_00_08_18,INFO,logging_setup:81:stream_capture completed in 1.133 secs
+2018_11_28_00_08_18,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 204"
+2018_11_28_00_08_18,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_18,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_28_00_08_18,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@204)
+2018_11_28_00_08_18,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_18,INFO,logging_setup:81:stream_capture 0.126999855042
+2018_11_28_00_08_18,INFO,test_point:144:execute H_LIDAR_P12VD_2, EXEC: True, VALUE: 11.942598, PASSED: True
+2018_11_28_00_08_19,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1AA58>
+2018_11_28_00_08_19,INFO,logging_setup:81:stream_capture completed in 1.133 secs
+2018_11_28_00_08_19,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 206"
+2018_11_28_00_08_19,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_19,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_28_00_08_19,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@206)
+2018_11_28_00_08_19,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_19,INFO,logging_setup:81:stream_capture 0.205000162125
+2018_11_28_00_08_19,INFO,test_point:144:execute P24VA_2, EXEC: True, VALUE: 24.475942, PASSED: True
+2018_11_28_00_08_20,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1AA90>
+2018_11_28_00_08_20,INFO,logging_setup:81:stream_capture completed in 1.211 secs
+2018_11_28_00_08_20,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 207"
+2018_11_28_00_08_20,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_20,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_28_00_08_20,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@207)
+2018_11_28_00_08_21,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_21,INFO,logging_setup:81:stream_capture 0.203999996185
+2018_11_28_00_08_21,INFO,test_point:144:execute IFM_RIGHT_P24VB_2, EXEC: True, VALUE: 24.476198, PASSED: True
+2018_11_28_00_08_22,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1AAC8>
+2018_11_28_00_08_22,INFO,logging_setup:81:stream_capture completed in 1.210 secs
+2018_11_28_00_08_22,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 208"
+2018_11_28_00_08_22,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_22,INFO,logging_setup:81:stream_capture 0.00299978256226
+2018_11_28_00_08_22,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@208)
+2018_11_28_00_08_22,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_22,INFO,logging_setup:81:stream_capture 0.206000089645
+2018_11_28_00_08_22,INFO,test_point:144:execute IFM_FRONT_P24VC_2, EXEC: True, VALUE: 24.476455, PASSED: True
+2018_11_28_00_08_23,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1AB00>
+2018_11_28_00_08_23,INFO,logging_setup:81:stream_capture completed in 1.211 secs
+2018_11_28_00_08_23,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 209"
+2018_11_28_00_08_23,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_23,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_28_00_08_23,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@209)
+2018_11_28_00_08_23,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_23,INFO,logging_setup:81:stream_capture 0.207999944687
+2018_11_28_00_08_23,INFO,test_point:144:execute IFM_LEFT_P24VD_2, EXEC: True, VALUE: 24.476327, PASSED: True
+2018_11_28_00_08_24,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1AB38>
+2018_11_28_00_08_24,INFO,logging_setup:81:stream_capture completed in 1.212 secs
+2018_11_28_00_08_24,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 210"
+2018_11_28_00_08_24,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_24,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_28_00_08_24,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@210)
+2018_11_28_00_08_24,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_24,INFO,logging_setup:81:stream_capture 0.12700009346
+2018_11_28_00_08_24,INFO,test_point:144:execute STEERING_3V_P3V3A_2, EXEC: True, VALUE: 3.3220161, PASSED: True
+2018_11_28_00_08_25,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1AB70>
+2018_11_28_00_08_25,INFO,logging_setup:81:stream_capture completed in 1.134 secs
+2018_11_28_00_08_25,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 211"
+2018_11_28_00_08_25,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_25,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_28_00_08_25,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@211)
+2018_11_28_00_08_25,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_25,INFO,logging_setup:81:stream_capture 0.125999927521
+2018_11_28_00_08_25,INFO,test_point:144:execute STRT_PAUSE_P3V3B_2, EXEC: True, VALUE: 3.3204542, PASSED: True
+2018_11_28_00_08_26,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1ABA8>
+2018_11_28_00_08_26,INFO,logging_setup:81:stream_capture completed in 1.131 secs
+2018_11_28_00_08_26,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 213"
+2018_11_28_00_08_26,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_26,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_28_00_08_26,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@213)
+2018_11_28_00_08_26,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_26,INFO,logging_setup:81:stream_capture 0.12700009346
+2018_11_28_00_08_26,INFO,test_point:144:execute FRONT_CAM_P5VA_2, EXEC: True, VALUE: 4.9823708, PASSED: True
+2018_11_28_00_08_27,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1ABE0>
+2018_11_28_00_08_27,INFO,logging_setup:81:stream_capture completed in 1.134 secs
+2018_11_28_00_08_27,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 214"
+2018_11_28_00_08_27,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_27,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_28_00_08_27,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@214)
+2018_11_28_00_08_27,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_27,INFO,logging_setup:81:stream_capture 0.125999927521
+2018_11_28_00_08_27,INFO,test_point:144:execute RIGHT_CAM_P5VB_2, EXEC: True, VALUE: 4.9672219, PASSED: True
+2018_11_28_00_08_28,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1AC18>
+2018_11_28_00_08_28,INFO,logging_setup:81:stream_capture completed in 1.132 secs
+2018_11_28_00_08_28,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 215"
+2018_11_28_00_08_28,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_28,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_28_00_08_28,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@215)
+2018_11_28_00_08_29,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_29,INFO,logging_setup:81:stream_capture 0.12700009346
+2018_11_28_00_08_29,INFO,test_point:144:execute LEFT_CAM_P5VC_2, EXEC: True, VALUE: 4.9954752, PASSED: True
+2018_11_28_00_08_30,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1AC50>
+2018_11_28_00_08_30,INFO,logging_setup:81:stream_capture completed in 1.133 secs
+2018_11_28_00_08_30,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 216"
+2018_11_28_00_08_30,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_30,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_28_00_08_30,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@216)
+2018_11_28_00_08_30,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_30,INFO,logging_setup:81:stream_capture 0.125999927521
+2018_11_28_00_08_30,INFO,test_point:144:execute P5VD_2, EXEC: True, VALUE: 4.996872, PASSED: True
+2018_11_28_00_08_31,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1AC88>
+2018_11_28_00_08_31,INFO,logging_setup:81:stream_capture completed in 1.133 secs
+2018_11_28_00_08_31,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 217"
+2018_11_28_00_08_31,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_31,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_28_00_08_31,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@217)
+2018_11_28_00_08_31,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_31,INFO,logging_setup:81:stream_capture 0.125
+2018_11_28_00_08_31,INFO,test_point:144:execute P5VE_2, EXEC: True, VALUE: 4.9968339, PASSED: True
+2018_11_28_00_08_32,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1ACC0>
+2018_11_28_00_08_32,INFO,logging_setup:81:stream_capture completed in 1.131 secs
+2018_11_28_00_08_32,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 218"
+2018_11_28_00_08_32,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_32,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_28_00_08_32,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@218)
+2018_11_28_00_08_32,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_32,INFO,logging_setup:81:stream_capture 0.128000020981
+2018_11_28_00_08_32,INFO,test_point:144:execute P5VF_2, EXEC: True, VALUE: 4.9831327, PASSED: True
+2018_11_28_00_08_33,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1ACF8>
+2018_11_28_00_08_33,INFO,logging_setup:81:stream_capture completed in 1.133 secs
+2018_11_28_00_08_33,INFO,logging_setup:81:stream_capture VOLT 20
+2018_11_28_00_08_33,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_33,INFO,logging_setup:81:stream_capture 0.00100016593933
+2018_11_28_00_08_33,INFO,logging_setup:81:stream_capture CURR 2.6
+2018_11_28_00_08_33,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_33,INFO,logging_setup:81:stream_capture 0.000999927520752
+2018_11_28_00_08_33,INFO,logging_setup:81:stream_capture SOUR:OUTP 1
+2018_11_28_00_08_33,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_33,INFO,logging_setup:81:stream_capture 0.0
+2018_11_28_00_08_33,INFO,logging_setup:81:stream_capture <control.bcm_power.DutPower object at 0x00000000035C8D30>
+2018_11_28_00_08_33,INFO,logging_setup:81:stream_capture completed in 0.004 secs
+2018_11_28_00_08_33,INFO,logging_setup:81:stream_capture MEAS:CURR?
+2018_11_28_00_08_33,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_33,INFO,logging_setup:81:stream_capture 0.0130000114441
+2018_11_28_00_08_33,INFO,test_point:144:execute DUT_CURRENT_1, EXEC: True, VALUE: 1.1346, PASSED: True
+2018_11_28_00_08_34,INFO,logging_setup:81:stream_capture <tests.bcm_power_tests.DutCurrentMeasurement object at 0x00000000035C8D30>
+2018_11_28_00_08_34,INFO,logging_setup:81:stream_capture completed in 1.014 secs
+2018_11_28_00_08_34,INFO,logging_setup:81:stream_capture MEAS:VOLT?
+2018_11_28_00_08_34,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_34,INFO,logging_setup:81:stream_capture 0.00799989700317
+2018_11_28_00_08_34,INFO,test_point:144:execute DUT_VOLTAGE_1, EXEC: True, VALUE: 20.001, PASSED: True
+2018_11_28_00_08_35,INFO,logging_setup:81:stream_capture <tests.bcm_power_tests.DutVoltageMeasurement object at 0x0000000004C1ACF8>
+2018_11_28_00_08_35,INFO,logging_setup:81:stream_capture completed in 1.010 secs
+2018_11_28_00_08_35,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 101"
+2018_11_28_00_08_35,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_35,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_28_00_08_35,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@101)
+2018_11_28_00_08_35,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_35,INFO,logging_setup:81:stream_capture 0.147000074387
+2018_11_28_00_08_35,INFO,test_point:144:execute P5VG_1, EXEC: True, VALUE: 5.0004656, PASSED: True
+2018_11_28_00_08_36,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1A940>
+2018_11_28_00_08_36,INFO,logging_setup:81:stream_capture completed in 1.153 secs
+2018_11_28_00_08_36,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 102"
+2018_11_28_00_08_36,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_36,INFO,logging_setup:81:stream_capture 0.0019998550415
+2018_11_28_00_08_36,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@102)
+2018_11_28_00_08_36,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_36,INFO,logging_setup:81:stream_capture 0.12700009346
+2018_11_28_00_08_36,INFO,test_point:144:execute STEERING_P5VH_1, EXEC: True, VALUE: 5.0004402, PASSED: True
+2018_11_28_00_08_37,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1A860>
+2018_11_28_00_08_37,INFO,logging_setup:81:stream_capture completed in 1.131 secs
+2018_11_28_00_08_37,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 103"
+2018_11_28_00_08_37,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_37,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_28_00_08_37,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@103)
+2018_11_28_00_08_37,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_37,INFO,logging_setup:81:stream_capture 0.129999876022
+2018_11_28_00_08_37,INFO,test_point:144:execute ABSOLUTE_ENCODER_P5VI_1, EXEC: True, VALUE: 5.0005671, PASSED: True
+2018_11_28_00_08_38,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1A908>
+2018_11_28_00_08_38,INFO,logging_setup:81:stream_capture completed in 1.135 secs
+2018_11_28_00_08_38,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 104"
+2018_11_28_00_08_38,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_38,INFO,logging_setup:81:stream_capture 0.00200009346008
+2018_11_28_00_08_38,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@104)
+2018_11_28_00_08_39,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_39,INFO,logging_setup:81:stream_capture 0.125999927521
+2018_11_28_00_08_39,INFO,test_point:144:execute TRACTION_ENCODER_P5VJ_1, EXEC: True, VALUE: 5.0006052, PASSED: True
+2018_11_28_00_08_40,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1A8D0>
+2018_11_28_00_08_40,INFO,logging_setup:81:stream_capture completed in 1.131 secs
+2018_11_28_00_08_40,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 105"
+2018_11_28_00_08_40,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_40,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_28_00_08_40,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@105)
+2018_11_28_00_08_40,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_40,INFO,logging_setup:81:stream_capture 0.12700009346
+2018_11_28_00_08_40,INFO,test_point:144:execute P5VK_1, EXEC: True, VALUE: 5.0006814, PASSED: True
+2018_11_28_00_08_41,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1A828>
+2018_11_28_00_08_41,INFO,logging_setup:81:stream_capture completed in 1.132 secs
+2018_11_28_00_08_41,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 107"
+2018_11_28_00_08_41,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_41,INFO,logging_setup:81:stream_capture 0.00299978256226
+2018_11_28_00_08_41,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@107)
+2018_11_28_00_08_41,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_41,INFO,logging_setup:81:stream_capture 0.12700009346
+2018_11_28_00_08_41,INFO,test_point:144:execute EXT_LTE_MODEM__USB_5V_1A_1, EXEC: True, VALUE: 4.953889, PASSED: True
+2018_11_28_00_08_42,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1A588>
+2018_11_28_00_08_42,INFO,logging_setup:81:stream_capture completed in 1.132 secs
+2018_11_28_00_08_42,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 108"
+2018_11_28_00_08_42,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_42,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_28_00_08_42,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@108)
+2018_11_28_00_08_42,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_42,INFO,logging_setup:81:stream_capture 0.12700009346
+2018_11_28_00_08_42,INFO,test_point:144:execute USB_5V_1B_1, EXEC: True, VALUE: 4.9551334, PASSED: True
+2018_11_28_00_08_43,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1A898>
+2018_11_28_00_08_43,INFO,logging_setup:81:stream_capture completed in 1.131 secs
+2018_11_28_00_08_43,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 201"
+2018_11_28_00_08_43,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_43,INFO,logging_setup:81:stream_capture 0.00399994850159
+2018_11_28_00_08_43,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@201)
+2018_11_28_00_08_43,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_43,INFO,logging_setup:81:stream_capture 0.133000135422
+2018_11_28_00_08_43,INFO,test_point:144:execute FAN_P12VA_1, EXEC: True, VALUE: 11.958953, PASSED: True
+2018_11_28_00_08_44,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1A978>
+2018_11_28_00_08_44,INFO,logging_setup:81:stream_capture completed in 1.140 secs
+2018_11_28_00_08_44,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 202"
+2018_11_28_00_08_44,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_44,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_28_00_08_44,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@202)
+2018_11_28_00_08_44,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_44,INFO,logging_setup:81:stream_capture 0.125999927521
+2018_11_28_00_08_44,INFO,test_point:144:execute SLANTED_LIDAR_P12VB_1, EXEC: True, VALUE: 11.959689, PASSED: True
+2018_11_28_00_08_45,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1A9B0>
+2018_11_28_00_08_45,INFO,logging_setup:81:stream_capture completed in 1.132 secs
+2018_11_28_00_08_45,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 203"
+2018_11_28_00_08_45,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_45,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_28_00_08_45,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@203)
+2018_11_28_00_08_45,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_45,INFO,logging_setup:81:stream_capture 0.130000114441
+2018_11_28_00_08_45,INFO,test_point:144:execute P12VC_1, EXEC: True, VALUE: 11.963613, PASSED: True
+2018_11_28_00_08_46,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1A9E8>
+2018_11_28_00_08_46,INFO,logging_setup:81:stream_capture completed in 1.136 secs
+2018_11_28_00_08_46,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 204"
+2018_11_28_00_08_46,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_46,INFO,logging_setup:81:stream_capture 0.00200009346008
+2018_11_28_00_08_46,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@204)
+2018_11_28_00_08_47,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_47,INFO,logging_setup:81:stream_capture 0.12700009346
+2018_11_28_00_08_47,INFO,test_point:144:execute H_LIDAR_P12VD_1, EXEC: True, VALUE: 11.961276, PASSED: True
+2018_11_28_00_08_48,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1AA20>
+2018_11_28_00_08_48,INFO,logging_setup:81:stream_capture completed in 1.131 secs
+2018_11_28_00_08_48,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 206"
+2018_11_28_00_08_48,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_48,INFO,logging_setup:81:stream_capture 0.0019998550415
+2018_11_28_00_08_48,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@206)
+2018_11_28_00_08_48,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_48,INFO,logging_setup:81:stream_capture 0.203999996185
+2018_11_28_00_08_48,INFO,test_point:144:execute P24VA_1, EXEC: True, VALUE: 24.294491, PASSED: True
+2018_11_28_00_08_49,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1AA58>
+2018_11_28_00_08_49,INFO,logging_setup:81:stream_capture completed in 1.209 secs
+2018_11_28_00_08_49,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 207"
+2018_11_28_00_08_49,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_49,INFO,logging_setup:81:stream_capture 0.00400018692017
+2018_11_28_00_08_49,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@207)
+2018_11_28_00_08_49,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_49,INFO,logging_setup:81:stream_capture 0.204999923706
+2018_11_28_00_08_49,INFO,test_point:144:execute IFM_RIGHT_P24VB_1, EXEC: True, VALUE: 24.290898, PASSED: True
+2018_11_28_00_08_50,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1AA90>
+2018_11_28_00_08_50,INFO,logging_setup:81:stream_capture completed in 1.212 secs
+2018_11_28_00_08_50,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 208"
+2018_11_28_00_08_50,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_50,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_28_00_08_50,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@208)
+2018_11_28_00_08_50,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_50,INFO,logging_setup:81:stream_capture 0.206000089645
+2018_11_28_00_08_50,INFO,test_point:144:execute IFM_FRONT_P24VC_1, EXEC: True, VALUE: 24.292823, PASSED: True
+2018_11_28_00_08_51,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1AAC8>
+2018_11_28_00_08_51,INFO,logging_setup:81:stream_capture completed in 1.211 secs
+2018_11_28_00_08_51,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 209"
+2018_11_28_00_08_51,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_51,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_28_00_08_51,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@209)
+2018_11_28_00_08_51,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_51,INFO,logging_setup:81:stream_capture 0.204999923706
+2018_11_28_00_08_51,INFO,test_point:144:execute IFM_LEFT_P24VD_1, EXEC: True, VALUE: 24.292181, PASSED: True
+2018_11_28_00_08_52,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1AB00>
+2018_11_28_00_08_52,INFO,logging_setup:81:stream_capture completed in 1.210 secs
+2018_11_28_00_08_52,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 210"
+2018_11_28_00_08_52,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_52,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_28_00_08_52,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@210)
+2018_11_28_00_08_53,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_53,INFO,logging_setup:81:stream_capture 0.12700009346
+2018_11_28_00_08_53,INFO,test_point:144:execute STEERING_3V_P3V3A_1, EXEC: True, VALUE: 3.3220415, PASSED: True
+2018_11_28_00_08_54,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1AB38>
+2018_11_28_00_08_54,INFO,logging_setup:81:stream_capture completed in 1.132 secs
+2018_11_28_00_08_54,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 211"
+2018_11_28_00_08_54,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_54,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_28_00_08_54,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@211)
+2018_11_28_00_08_54,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_54,INFO,logging_setup:81:stream_capture 0.12700009346
+2018_11_28_00_08_54,INFO,test_point:144:execute STRT_PAUSE_P3V3B_1, EXEC: True, VALUE: 3.3205177, PASSED: True
+2018_11_28_00_08_55,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1AB70>
+2018_11_28_00_08_55,INFO,logging_setup:81:stream_capture completed in 1.132 secs
+2018_11_28_00_08_55,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 213"
+2018_11_28_00_08_55,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_55,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_28_00_08_55,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@213)
+2018_11_28_00_08_55,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_55,INFO,logging_setup:81:stream_capture 0.125999927521
+2018_11_28_00_08_55,INFO,test_point:144:execute FRONT_CAM_P5VA_1, EXEC: True, VALUE: 4.9822565, PASSED: True
+2018_11_28_00_08_56,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1ABA8>
+2018_11_28_00_08_56,INFO,logging_setup:81:stream_capture completed in 1.133 secs
+2018_11_28_00_08_56,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 214"
+2018_11_28_00_08_56,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_56,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_28_00_08_56,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@214)
+2018_11_28_00_08_56,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_56,INFO,logging_setup:81:stream_capture 0.128000020981
+2018_11_28_00_08_56,INFO,test_point:144:execute RIGHT_CAM_P5VB_1, EXEC: True, VALUE: 4.9671585, PASSED: True
+2018_11_28_00_08_57,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1ABE0>
+2018_11_28_00_08_57,INFO,logging_setup:81:stream_capture completed in 1.133 secs
+2018_11_28_00_08_57,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 215"
+2018_11_28_00_08_57,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_57,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_28_00_08_57,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@215)
+2018_11_28_00_08_57,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_57,INFO,logging_setup:81:stream_capture 0.12700009346
+2018_11_28_00_08_57,INFO,test_point:144:execute LEFT_CAM_P5VC_1, EXEC: True, VALUE: 4.9954371, PASSED: True
+2018_11_28_00_08_58,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1AC18>
+2018_11_28_00_08_58,INFO,logging_setup:81:stream_capture completed in 1.132 secs
+2018_11_28_00_08_58,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 216"
+2018_11_28_00_08_58,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_58,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_28_00_08_58,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@216)
+2018_11_28_00_08_58,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_58,INFO,logging_setup:81:stream_capture 0.125999927521
+2018_11_28_00_08_58,INFO,test_point:144:execute P5VD_1, EXEC: True, VALUE: 4.9968593, PASSED: True
+2018_11_28_00_08_59,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1AC50>
+2018_11_28_00_08_59,INFO,logging_setup:81:stream_capture completed in 1.130 secs
+2018_11_28_00_08_59,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 217"
+2018_11_28_00_08_59,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_08_59,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_28_00_08_59,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@217)
+2018_11_28_00_08_59,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_08_59,INFO,logging_setup:81:stream_capture 0.125999927521
+2018_11_28_00_08_59,INFO,test_point:144:execute P5VE_1, EXEC: True, VALUE: 4.9968085, PASSED: True
+2018_11_28_00_09_00,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1AC88>
+2018_11_28_00_09_00,INFO,logging_setup:81:stream_capture completed in 1.133 secs
+2018_11_28_00_09_00,INFO,logging_setup:81:stream_capture DISP:TEXT "LD Test 218"
+2018_11_28_00_09_00,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_09_00,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_28_00_09_00,INFO,logging_setup:81:stream_capture MEAS:VOLT:DC? (@218)
+2018_11_28_00_09_00,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_09_00,INFO,logging_setup:81:stream_capture 0.12700009346
+2018_11_28_00_09_00,INFO,test_point:144:execute P5VF_1, EXEC: True, VALUE: 4.9832088, PASSED: True
+2018_11_28_00_09_01,INFO,logging_setup:81:stream_capture <tests.bcm_load_tests.LoadMeasurement object at 0x0000000004C1ACC0>
+2018_11_28_00_09_01,INFO,logging_setup:81:stream_capture completed in 1.139 secs
+2018_11_28_00_09_01,INFO,logging_setup:81:stream_capture VOLT 24
+2018_11_28_00_09_01,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_09_01,INFO,logging_setup:81:stream_capture 0.000999927520752
+2018_11_28_00_09_01,INFO,logging_setup:81:stream_capture CURR 2.6
+2018_11_28_00_09_01,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_09_01,INFO,logging_setup:81:stream_capture 0.000999927520752
+2018_11_28_00_09_01,INFO,logging_setup:81:stream_capture SOUR:OUTP 1
+2018_11_28_00_09_01,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_28_00_09_01,INFO,logging_setup:81:stream_capture 0.000999927520752
+2018_11_28_00_09_01,INFO,logging_setup:81:stream_capture <control.bcm_power.DutPower object at 0x00000000035C8D30>
+2018_11_28_00_09_01,INFO,logging_setup:81:stream_capture completed in 0.004 secs
+2018_11_28_00_09_01,INFO,logging_setup:81:stream_capture MEAS:CURR?
+2018_11_28_00_09_01,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_28_00_09_01,INFO,logging_setup:81:stream_capture 0.0119998455048
+2018_11_28_00_09_01,INFO,test_point:144:execute DUT_CURRENT_3, EXEC: True, VALUE: 1.6689, PASSED: False
+2018_11_28_00_09_01,INFO,logging_setup:81:stream_capture <tests.bcm_power_tests.DutCurrentMeasurement object at 0x00000000035C8D30>
+2018_11_28_00_09_01,INFO,logging_setup:81:stream_capture completed in 0.013 secs
+2018_11_28_00_09_01,INFO,logging_setup:81:stream_capture Board type:115 testing complete...
+2018_11_28_00_09_01,INFO,logging_setup:81:stream_capture POWEROFF NOT REQUESTED, LEAVING DUT POWERED ON!!!
+2018_11_28_00_09_01,INFO,logging_setup:81:stream_capture WARN: Test Coverage 143/51, Test Cases/Tests run
+2018_11_28_00_09_01,INFO,logging_setup:81:stream_capture Test Failures 1
+2018_11_28_00_09_01,INFO,logging_setup:81:stream_capture Test duration:58sec
+2018_11_28_00_09_01,INFO,logging_setup:81:stream_capture Traceback (most recent call last):
+2018_11_28_00_09_01,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\BCM\BCM_test.py", line 102, in <module>
+2018_11_28_00_09_01,INFO,logging_setup:81:stream_capture loadTests_24v = test_24v_load(meas_assets)
+2018_11_28_00_09_01,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\BCM\control\load_tests.py", line 182, in test_24v_load
+2018_11_28_00_09_02,INFO,logging_setup:81:stream_capture meas.run()
+2018_11_28_00_09_02,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\polish\measurement\measurement.py", line 63, in run
+2018_11_28_00_09_02,INFO,logging_setup:81:stream_capture self.measure()
+2018_11_28_00_09_02,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\BCM\tests\bcm_power_tests.py", line 36, in measure
+2018_11_28_00_09_02,INFO,logging_setup:81:stream_capture self.test_points[self.test_point_name].execute(curr)
+2018_11_28_00_09_02,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\polish\test_point\test_point.py", line 132, in execute
+2018_11_28_00_09_02,INFO,logging_setup:81:stream_capture pass_fail = self._execute(value, raiseOnFail)
+2018_11_28_00_09_02,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\polish\test_point\test_point.py", line 170, in _execute
+2018_11_28_00_09_02,INFO,logging_setup:81:stream_capture raise TestPointUpperLimitFailure('%s upper limit failed %r higher than %r' % (self.unique_id, value, self.upper_limit))
+2018_11_28_00_09_02,INFO,logging_setup:81:stream_capture polish.test_point.test_point
+2018_11_28_00_09_02,INFO,logging_setup:81:stream_capture .
+2018_11_28_00_09_02,INFO,logging_setup:81:stream_capture TestPointUpperLimitFailure
+2018_11_28_00_09_02,INFO,logging_setup:81:stream_capture : 
+2018_11_28_00_09_02,INFO,logging_setup:81:stream_capture DUT_CURRENT_3 upper limit failed 1.6689 higher than 1.6

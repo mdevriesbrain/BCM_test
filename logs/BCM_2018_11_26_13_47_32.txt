@@ -1,0 +1,331 @@
+2018_11_26_21_47_32,INFO,logging_setup:43:init_project_logger info
+2018_11_26_21_47_32,INFO,logging_setup:81:stream_capture *IDN?
+2018_11_26_21_47_32,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_26_21_47_32,INFO,logging_setup:81:stream_capture 0.0239999294281
+2018_11_26_21_47_32,INFO,logging_setup:81:stream_capture *IDN?
+2018_11_26_21_47_32,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_26_21_47_32,INFO,logging_setup:81:stream_capture 0.00399994850159
+2018_11_26_21_47_32,INFO,logging_setup:81:stream_capture *IDN?
+2018_11_26_21_47_32,INFO,logging_setup:81:stream_capture _debug_query
+2018_11_26_21_47_32,INFO,logging_setup:81:stream_capture 0.0239999294281
+2018_11_26_21_47_32,INFO,logging_setup:81:stream_capture Begin Testing Board type:115...
+2018_11_26_21_47_32,INFO,logging_setup:81:stream_capture VOLT 36
+2018_11_26_21_47_32,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_26_21_47_32,INFO,logging_setup:81:stream_capture 0.000999927520752
+2018_11_26_21_47_32,INFO,logging_setup:81:stream_capture CURR 2.6
+2018_11_26_21_47_32,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_26_21_47_32,INFO,logging_setup:81:stream_capture 0.000999927520752
+2018_11_26_21_47_32,INFO,logging_setup:81:stream_capture SOUR:OUTP 1
+2018_11_26_21_47_32,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_26_21_47_32,INFO,logging_setup:81:stream_capture 0.000999927520752
+2018_11_26_21_47_32,INFO,logging_setup:81:stream_capture <control.bcm_power.DutPower object at 0x00000000047E7588>
+2018_11_26_21_47_32,INFO,logging_setup:81:stream_capture completed in 0.004 secs
+2018_11_26_21_47_32,INFO,logging_setup:81:stream_capture SOUR:DIG:DATA:BYTE 2, (@202)
+2018_11_26_21_47_32,INFO,logging_setup:81:stream_capture _debug_write
+2018_11_26_21_47_32,INFO,logging_setup:81:stream_capture 0.00300002098083
+2018_11_26_21_47_33,INFO,logging_setup:81:stream_capture <control.bcm_power.DutKeySenseOn object at 0x00000000031E8D30>
+2018_11_26_21_47_33,INFO,logging_setup:81:stream_capture completed in 1.014 secs
+2018_11_26_21_47_33,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_47_36,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_47_39,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_47_42,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_47_44,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_47_47,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_47_50,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_47_53,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_47_56,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_47_59,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_48_02,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_48_05,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_48_08,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_48_11,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_48_14,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_48_17,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_48_17,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_48_17,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_48_18,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_48_18,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_48_21,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_48_24,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_48_27,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_48_30,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_48_33,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_48_36,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_48_39,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_48_42,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_48_45,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_48_48,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_48_51,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_48_54,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_48_57,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_49_00,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_49_03,INFO,logging_setup:81:stream_capture 
+Pinging 192.168.137.178 with 32 bytes of data:
+Reply from 192.168.137.178: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.137.178:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+2018_11_26_21_49_03,INFO,test_point:144:execute KEY_SENSE_1, EXEC: True, VALUE: 0, PASSED: False
+2018_11_26_21_49_03,INFO,logging_setup:81:stream_capture <tests.bcm_power_tests.DutKeySenseMeasurement object at 0x00000000031E8D30>
+2018_11_26_21_49_03,INFO,logging_setup:81:stream_capture completed in 90.119 secs
+2018_11_26_21_49_03,INFO,logging_setup:81:stream_capture Board type:115 testing complete...
+2018_11_26_21_49_03,INFO,logging_setup:81:stream_capture POWEROFF NOT REQUESTED, LEAVING DUT POWERED ON!!!
+2018_11_26_21_49_03,INFO,logging_setup:81:stream_capture WARN: Test Coverage 141/0, Test Cases/Tests run
+2018_11_26_21_49_03,INFO,logging_setup:81:stream_capture Test Failures 1
+2018_11_26_21_49_03,INFO,logging_setup:81:stream_capture Test duration:91sec
+2018_11_26_21_49_03,INFO,logging_setup:81:stream_capture Traceback (most recent call last):
+2018_11_26_21_49_03,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\BCM\BCM_test.py", line 82, in <module>
+2018_11_26_21_49_03,INFO,logging_setup:81:stream_capture DutKeySenseMeasurement(meas_assets, 'DUT1', 'POWER_SUPPLY1', 'MUX2', 'KEY_SENSE_1', slot=2, channel=2, bit=1).run()
+2018_11_26_21_49_03,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\polish\measurement\measurement.py", line 63, in run
+2018_11_26_21_49_03,INFO,logging_setup:81:stream_capture self.measure()
+2018_11_26_21_49_03,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\BCM\tests\bcm_power_tests.py", line 143, in measure
+2018_11_26_21_49_03,INFO,logging_setup:81:stream_capture def measure(self):
+2018_11_26_21_49_03,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\polish\test_point\test_point.py", line 132, in execute
+2018_11_26_21_49_03,INFO,logging_setup:81:stream_capture pass_fail = self._execute(value, raiseOnFail)
+2018_11_26_21_49_03,INFO,logging_setup:81:stream_capture   File "C:\Users\BrainFactory1\BCM Tester\polish\test_point\test_point.py", line 159, in _execute
+2018_11_26_21_49_03,INFO,logging_setup:81:stream_capture raise TestPointEqualityLimitFailure('%s equality limit failed %r does not equal %r' % (self.unique_id, value, self.equality_limit))
+2018_11_26_21_49_03,INFO,logging_setup:81:stream_capture polish.test_point.test_point
+2018_11_26_21_49_03,INFO,logging_setup:81:stream_capture .
+2018_11_26_21_49_03,INFO,logging_setup:81:stream_capture TestPointEqualityLimitFailure
+2018_11_26_21_49_03,INFO,logging_setup:81:stream_capture : 
+2018_11_26_21_49_03,INFO,logging_setup:81:stream_capture KEY_SENSE_1 equality limit failed 0 does not equal 1
