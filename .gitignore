@@ -106,5 +106,5 @@ venv.bak/
 #Ctags
 tags
 
-#dut_comms/vcu_ether_comms/vcu_msg
-#dut_comms/vcu_ether_comms/proto
+logs/*.txt
+default_reports/*.csv
